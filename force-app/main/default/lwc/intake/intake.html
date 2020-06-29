@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title="Intake Process" icon-name="action:change_owner">
+        <lightning-layout vertical-align="center" class="slds-p-around_medium">
+            <lightning-layout-item size="12">
+                <lightning-record-edit-form object-api-name={intake} onsuccess={handleSuccess}>
+                    <lightning-messages>
+                    </lightning-messages>
+
+                    <lightning-input-field field-name="AG_Lead__c" value={recordId}>
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Intake_Coordinator__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Service_Provider__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Demographic_Information__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Insurance_Information__c">
+                    </lightning-input-field>
+
+                    <div class="footer">
+                        <lightning-button class="slds-m-top_small" type="submit" label="Save" variant="brand">
+                        </lightning-button>
+                        &nbsp; &nbsp;
+                        <lightning-button class="slds-m-top_small" label="Cancel" variant="neutral"
+                            onclick={handleCancel}>
+                        </lightning-button>
+                    </div>
+
+                </lightning-record-edit-form>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
