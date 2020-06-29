@@ -1,13 +1,16 @@
 <template>
-    <lightning-card title="Intake Process" icon-name="action:change_owner">
+    <lightning-card title="Intake Request" icon-name="action:change_owner">
         <lightning-layout vertical-align="center" class="slds-p-around_medium">
             <lightning-layout-item size="12">
+
+                <lightning-record-view-form record-id={recordId} object-api-name="Lead">
+                    <lightning-output-field field-name="AG_Lead_Name__c">
+                    </lightning-output-field>
+                </lightning-record-view-form>
+
                 <lightning-record-edit-form object-api-name={intake} onsuccess={handleSuccess}>
                     <lightning-messages>
                     </lightning-messages>
-
-                    <lightning-input-field field-name="AG_Lead__c" value={recordId}>
-                    </lightning-input-field>
 
                     <lightning-input-field field-name="AG_Intake_Coordinator__c">
                     </lightning-input-field>

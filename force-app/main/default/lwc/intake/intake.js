@@ -13,7 +13,7 @@ import {
 
 import INTAKE_OBJECT from '@salesforce/schema/AG_Intake__c';
 
-import changeStatus from '@salesforce/apex/AG_Human_Service_CL.changeStatus';
+import changeStatusForLead from '@salesforce/apex/AG_Human_Service_CL.changeStatusForLead';
 
 export default class Intake extends NavigationMixin(LightningElement) {
 
@@ -21,12 +21,12 @@ export default class Intake extends NavigationMixin(LightningElement) {
 
     @api recordId;
 
-    @api status = 'In Take';
+    @api status = 'Account - converted';
 
     handleSuccess(event) {
         const successEvent = new ShowToastEvent({
             title: "Success",
-            message: "Intake record created successfully",
+            message: "Intake process completed successfully",
             variant: "success"
         });
         this.dispatchEvent(successEvent);
@@ -35,7 +35,7 @@ export default class Intake extends NavigationMixin(LightningElement) {
     }
 
     changeStatusForReferral() {
-        changeStatus({
+        changeStatusForLead({
                 recordId: this.recordId,
                 status: this.status
             })
