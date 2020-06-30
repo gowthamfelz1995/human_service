@@ -37,4 +37,16 @@
         <label>Account - converted</label>
         <converted>false</converted>
     </standardValue>
+    <standardValue>
+        <fullName>Waitlisted</fullName>
+        <default>false</default>
+        <label>Waitlisted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Discharged</fullName>
+        <default>false</default>
+        <label>Discharged</label>
+        <converted>false</converted>
+    </standardValue>
 </StandardValueSet>

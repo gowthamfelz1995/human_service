@@ -26,36 +26,6 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string waitListReferral( Id recordId){
-        try{
-            AG_Referral__c referral = [SELECT Id, AG_Status__c  FROM AG_Referral__c WHERE Id =: recordId];
-            referral.AG_Status__c = 'WaitListed';
-            update referral;
-            return '{"success" : true, "message" : "The referral record waitlisted successfully"}';
-        }
-        catch(Exception e){
-            System.debug(e.getLineNumber());
-            System.debug(e.getMessage());
-            return '{"success": false, "message": "'+e.getMessage()+'"}';
-        }
-    }
-
-    @AuraEnabled
-    public static string dischargeReferral( Id recordId){
-        try{
-            AG_Referral__c referral = [SELECT Id, AG_Status__c  FROM AG_Referral__c WHERE Id =: recordId];
-            referral.AG_Status__c = 'Discharged';
-            update referral;
-            return '{"success" : true, "message" : "The referral record discharged successfully"}';
-        }
-        catch(Exception e){
-            System.debug(e.getLineNumber());
-            System.debug(e.getMessage());
-            return '{"success": false, "message": "'+e.getMessage()+'"}';
-        }
-    }
-
-    @AuraEnabled
     public static string getServiceProviderForAssessment( Id recordId){
         try{
             AG_Intake__c intake = [SELECT AG_Service_Provider__c  FROM AG_Intake__c WHERE AG_Referral__c =: recordId];

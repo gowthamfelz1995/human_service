@@ -5,6 +5,12 @@
         "paths": {
             "c/intake": [
                 "intake/intake.js"
+            ],
+            "c/waitList": [
+                "waitList/waitList.js"
+            ],
+            "c/discharge": [
+                "discharge/discharge.js"
             ]
         }
     },

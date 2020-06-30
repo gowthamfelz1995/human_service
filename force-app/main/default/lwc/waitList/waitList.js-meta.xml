@@ -13,5 +13,5 @@
             lightning__AppPage
         </target>
     </targets>
-    <masterLabel>AG_Intake</masterLabel>
+    <masterLabel>AG_WaitList</masterLabel>
 </LightningComponentBundle>
