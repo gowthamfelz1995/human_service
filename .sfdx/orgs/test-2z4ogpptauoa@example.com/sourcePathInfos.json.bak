@@ -32,14 +32,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1593440228624,
-            "changeTime": 1593440228624,
-            "contentHash": "6f8d54a7693c94127d9a74ee8ac4726cf67b8ad5"
+            "modifiedTime": 1593500394022,
+            "changeTime": 1593500394022,
+            "contentHash": "894073d598abcd096810c347826029d7a0acc8c6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -48,9 +48,9 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593425111875,
-            "changeTime": 1593425111875,
-            "contentHash": "fdff729c6a15912e7c0a9f149efc101d2a16dd0e",
+            "modifiedTime": 1593498902641,
+            "changeTime": 1593498902641,
+            "contentHash": "abc7a8a33834966957f1afcd300f09208f2129c0",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -59,14 +59,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "b7451cef044196d3596572423d0c6b4757ef8219"
+            "contentHash": "b7451cef044196d3596572423d0c6b4757ef8219",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -105,13 +105,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413593788,
-            "changeTime": 1593413593788,
-            "contentHash": "b7c2868fcf209b5112b9b75136a0facb752f13ad",
+            "modifiedTime": 1593440228707,
+            "changeTime": 1593440228707,
+            "contentHash": "7efcbc4cb94e4e3132c458b479bcabc2136e0b25",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -195,13 +194,11 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413568973,
-            "changeTime": 1593413568973,
-            "contentHash": "3a77b4bc009e062f33645385fedc72634c6ff3e6",
+            "modifiedTime": 1593500693440,
+            "changeTime": 1593500693440,
+            "contentHash": "098b42ba891ce814bf03193a373b20e07c2ea749",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -209,26 +206,25 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\AG_Intake__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5107,
-            "modifiedTime": 1593413872038,
-            "changeTime": 1593413872038,
-            "contentHash": "6b6fbee7ec280030cb5ba1d3468423dbc2fef17a",
+            "size": 6126,
+            "modifiedTime": 1593500693440,
+            "changeTime": 1593500693440,
+            "contentHash": "056e780fdd2afae4e19b0e320b12fd692b08622e",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228515,
             "changeTime": 1593440228515,
-            "contentHash": "058d50b215d7af506b364c6e1b2c387601b06b56"
+            "contentHash": "058d50b215d7af506b364c6e1b2c387601b06b56",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -311,14 +307,12 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\listViews\\All.listView-meta.xml",
             "isDirectory": false,
-            "size": 204,
-            "modifiedTime": 1593413568974,
-            "changeTime": 1593413568974,
-            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd",
+            "size": 466,
+            "modifiedTime": 1593500393987,
+            "changeTime": 1593500393987,
+            "contentHash": "dfa1e6e2d65ff072a03ca462cad37efa4d5efd03",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -327,13 +321,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Referral__c",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413549092,
-            "changeTime": 1593413549092,
-            "contentHash": "db520472a8012e3f6219adceff3c713965a5f174",
+            "modifiedTime": 1593440228714,
+            "changeTime": 1593440228714,
+            "contentHash": "1b2240aeefda6a715f4fc798403932c0d5286a0c",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -342,13 +335,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Referral__c\\compactLayouts",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413549082,
-            "changeTime": 1593413549082,
-            "contentHash": "46abae3c69254d5bf044745834016c8c215c230f",
+            "modifiedTime": 1593440228715,
+            "changeTime": 1593440228715,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -357,13 +349,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Referral__c\\fields",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413549091,
-            "changeTime": 1593413549091,
-            "contentHash": "62913aa60c4c976a134354e4f7e0c9a4822d25f6",
+            "modifiedTime": 1593440228721,
+            "changeTime": 1593440228721,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -372,13 +363,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Referral__c\\listViews",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413549093,
-            "changeTime": 1593413549093,
-            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "modifiedTime": 1593440228721,
+            "changeTime": 1593440228721,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -417,13 +407,12 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Service__c\\fields",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593413618454,
-            "changeTime": 1593413618454,
-            "contentHash": "46b0628b68035c7bb1996460c345261ef626c707",
+            "modifiedTime": 1593440228752,
+            "changeTime": 1593440228752,
+            "contentHash": "df6640ece4842790ea981b173b867b5c6502a7fa",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -565,7 +554,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\appMenus",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593422796083,
+            "modifiedTime": 1593511128800,
             "changeTime": 1593422796083,
             "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d",
             "isMetadataFile": false,
@@ -575,14 +564,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1593440228640,
-            "changeTime": 1593440228640,
-            "contentHash": "0952c2262750b008ccfe4f72031d12edfb248b14"
+            "modifiedTime": 1593500693456,
+            "changeTime": 1593500693456,
+            "contentHash": "3c51bab0769ee7a047d7e05824a690f1ea51ecdf",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -591,9 +580,9 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593422796089,
-            "changeTime": 1593422796089,
-            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
+            "modifiedTime": 1593500394172,
+            "changeTime": 1593500394172,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -640,14 +629,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
+            "size": 32555,
+            "modifiedTime": 1593500394172,
+            "changeTime": 1593500394172,
+            "contentHash": "a6fe340bd529dcf6afb9b9adebca32f95c1bf500",
             "isMetadataFile": true,
-            "size": 32435,
-            "modifiedTime": 1593440228697,
-            "changeTime": 1593440228697,
-            "contentHash": "509b633ca6f8ba88e060b11b6f9e0034fe211a5e"
+            "state": "u"
         }
     ],
     [
@@ -656,9 +645,9 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593424970859,
-            "changeTime": 1593424970859,
-            "contentHash": "291c51062cf76e96d2aadd6cdf6acf18e9eda488",
+            "modifiedTime": 1593498841489,
+            "changeTime": 1593498841489,
+            "contentHash": "9b78ae5b5c372af5e02ab7decb045320883d7b77",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -824,10 +813,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
             "isDirectory": false,
-            "size": 4580,
-            "modifiedTime": 1593439889358,
-            "changeTime": 1593439889358,
-            "contentHash": "ae2fc6b647af79fed1e507df4f4ccb7aa879e737",
+            "size": 3401,
+            "modifiedTime": 1593499180630,
+            "changeTime": 1593499180630,
+            "contentHash": "1d1cfc81e989318025d6c749cf9b4de8361d7508",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -876,10 +865,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js-meta.xml",
             "isDirectory": false,
-            "size": 208,
-            "modifiedTime": 1593425111880,
-            "changeTime": 1593425111880,
-            "contentHash": "c04516a694799f5b63949274cfff3c09134ff3be",
+            "size": 479,
+            "modifiedTime": 1593498949587,
+            "changeTime": 1593498949587,
+            "contentHash": "0524798e33826dd2e19bd3a4eda6b6475e09b8b0",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -887,1171 +876,1665 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228704,
             "changeTime": 1593440228704,
-            "contentHash": "9ad03e08aea8d6446a07c1fb0e208243e7300437"
+            "contentHash": "9ad03e08aea8d6446a07c1fb0e208243e7300437",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\standardValueSets\\LeadStatus.standardValueSet-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\standardValueSets\\LeadStatus.standardValueSet-meta.xml",
             "isDirectory": false,
+            "size": 1721,
+            "modifiedTime": 1593499494526,
+            "changeTime": 1593499494526,
+            "contentHash": "ee96a3f55eb938d2684dd66f4218f841773b4aa7",
             "isMetadataFile": true,
-            "size": 1351,
-            "modifiedTime": 1593440228265,
-            "changeTime": 1593440228265,
-            "contentHash": "3e1f655384d8641fc61f07e6ea1f0e078f72f058"
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9243,
             "modifiedTime": 1593440228296,
             "changeTime": 1593440228296,
-            "contentHash": "3e695c7e9f48414b0a18d25575800959016c19c7"
+            "contentHash": "3e695c7e9f48414b0a18d25575800959016c19c7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\compactLayouts\\AG_Account_Compact_Layout.compactLayout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\compactLayouts\\AG_Account_Compact_Layout.compactLayout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 324,
             "modifiedTime": 1593440228296,
             "changeTime": 1593440228296,
-            "contentHash": "ba41777b01d705f03c94b1155802da4753f737dd"
+            "contentHash": "ba41777b01d705f03c94b1155802da4753f737dd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AG_Lead__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AG_Lead__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 500,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "e72a23aac3d35534211ece015ae2067b6f7d70ac"
+            "contentHash": "e72a23aac3d35534211ece015ae2067b6f7d70ac",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 202,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "2485668a3437d5add365adc6395699585c0ec6d0"
+            "contentHash": "2485668a3437d5add365adc6395699585c0ec6d0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "1dee20ac58a40482934d035192fe7a98db6d9a81"
+            "contentHash": "1dee20ac58a40482934d035192fe7a98db6d9a81",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 202,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd"
+            "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 203,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "780b69fd147e2be6a8e2388d7c4336e215f67586"
+            "contentHash": "780b69fd147e2be6a8e2388d7c4336e215f67586",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb"
+            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 227,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127"
+            "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92"
+            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 199,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "b9eafa97bfa4f532b3645d306161068341cd99dd"
+            "contentHash": "b9eafa97bfa4f532b3645d306161068341cd99dd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 192,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f"
+            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47"
+            "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 195,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974"
+            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 198,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "1cf643f5c1633de90169cdb7628f965ac9d927f3"
+            "contentHash": "1cf643f5c1633de90169cdb7628f965ac9d927f3",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 198,
             "modifiedTime": 1593440228312,
             "changeTime": 1593440228312,
-            "contentHash": "5f0f4a91707a74fee313ea9dbc09659724dfd2f0"
+            "contentHash": "5f0f4a91707a74fee313ea9dbc09659724dfd2f0",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 192,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9"
+            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 206,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "9d2f6c78b600962d19202740171268557046a498"
+            "contentHash": "9d2f6c78b600962d19202740171268557046a498",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 229,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "e05e34427505b15fb131b564768c9199ddf39c9e"
+            "contentHash": "e05e34427505b15fb131b564768c9199ddf39c9e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 219,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798"
+            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 224,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "d84c9b729263e5159ea9a88550f4941bde5aa50e"
+            "contentHash": "d84c9b729263e5159ea9a88550f4941bde5aa50e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 224,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "a189aa9e1c94d29eb1f90c9544bfbd668be25cff"
+            "contentHash": "a189aa9e1c94d29eb1f90c9544bfbd668be25cff",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 194,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487"
+            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 221,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f"
+            "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 204,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "c30026606731cd625b5d0b4e8e529a2418ef1ee6"
+            "contentHash": "c30026606731cd625b5d0b4e8e529a2418ef1ee6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 192,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "33262a22c31dbefac748023c3a6c018d743d3161"
+            "contentHash": "33262a22c31dbefac748023c3a6c018d743d3161",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 196,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "bc19f903ec1384e12d7dd7bc9ffa88580a091422"
+            "contentHash": "bc19f903ec1384e12d7dd7bc9ffa88580a091422",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 193,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "0f2240d03c79c58a0992338cd2a62f8aa201a0a7"
+            "contentHash": "0f2240d03c79c58a0992338cd2a62f8aa201a0a7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 201,
             "modifiedTime": 1593440228328,
             "changeTime": 1593440228328,
-            "contentHash": "9d08b4f2d44e5bd6161a034a999f2fd3f8179f49"
+            "contentHash": "9d08b4f2d44e5bd6161a034a999f2fd3f8179f49",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 199,
             "modifiedTime": 1593440228343,
             "changeTime": 1593440228343,
-            "contentHash": "61dbe3cf77a2129e24ff09777f38f47e6ccb1297"
+            "contentHash": "61dbe3cf77a2129e24ff09777f38f47e6ccb1297",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 219,
             "modifiedTime": 1593440228343,
             "changeTime": 1593440228343,
-            "contentHash": "3467b15d43e2f23e3287cad8cd0622c58b3fdc61"
+            "contentHash": "3467b15d43e2f23e3287cad8cd0622c58b3fdc61",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 196,
             "modifiedTime": 1593440228343,
             "changeTime": 1593440228343,
-            "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea"
+            "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228343,
             "changeTime": 1593440228343,
-            "contentHash": "797d4a2003a4dc2b7d0b5a3114a8afef7440ccfb"
+            "contentHash": "797d4a2003a4dc2b7d0b5a3114a8afef7440ccfb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\Lead.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\Lead.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9934,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "0ae9a2aa94f02f151544ebd17f2952ab4c7d840c"
+            "contentHash": "0ae9a2aa94f02f151544ebd17f2952ab4c7d840c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\compactLayouts\\AG_Lead_Compact_Layout.compactLayout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\compactLayouts\\AG_Lead_Compact_Layout.compactLayout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 354,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "af075deace1e0b97d62db7fa93f5efdd487655b8"
+            "contentHash": "af075deace1e0b97d62db7fa93f5efdd487655b8",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AG_Lead_Name__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AG_Lead_Name__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 421,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "65b00bed6b2b883fa844c2b8b7f06f0e59f0a48e"
+            "contentHash": "65b00bed6b2b883fa844c2b8b7f06f0e59f0a48e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AG_Referred_By__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AG_Referred_By__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 511,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "4d7cf537a0217634aadf961ca80c4334cdc58976"
+            "contentHash": "4d7cf537a0217634aadf961ca80c4334cdc58976",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Address.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Address.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 196,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "3dde1472af932cd1fe851e00b6d397370cc3ef09"
+            "contentHash": "3dde1472af932cd1fe851e00b6d397370cc3ef09",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AnnualRevenue.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\AnnualRevenue.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 202,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd"
+            "contentHash": "428d667e4a7e884d30e9f297f975d2a6484dc2cd",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CampaignId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CampaignId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 176,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "bcbf6f6135d7cfd40bc7e669fe11ea8a49a9cad7"
+            "contentHash": "bcbf6f6135d7cfd40bc7e669fe11ea8a49a9cad7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CleanStatus.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CleanStatus.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb"
+            "contentHash": "b2a6d6cc0822db9616bc68852769a9ce9e31b8cb",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Company.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Company.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 196,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "ba1f936c0338dbd1148561ff725c3fc8562c1397"
+            "contentHash": "ba1f936c0338dbd1148561ff725c3fc8562c1397",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CompanyDunsNumber.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\CompanyDunsNumber.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 206,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "ca1ba65745b5eecad3b9d1c44dbb719d94437bf5"
+            "contentHash": "ca1ba65745b5eecad3b9d1c44dbb719d94437bf5",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\DandbCompanyId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\DandbCompanyId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 227,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127"
+            "contentHash": "c36e183fef5796b39d7f2abad313817f99c74127",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Description.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Description.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92"
+            "contentHash": "57d79a023b3596766f7369502cb5e2bac6a5cb92",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\DoNotCall.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\DoNotCall.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 198,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "a69a1b0e3f0e15fe44c968e2d0c859d8a264cb1a"
+            "contentHash": "a69a1b0e3f0e15fe44c968e2d0c859d8a264cb1a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Email.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Email.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 194,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "59513f0c3aba9cf2ca1fa13dd33c44eba996ef42"
+            "contentHash": "59513f0c3aba9cf2ca1fa13dd33c44eba996ef42",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Fax.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Fax.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 192,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f"
+            "contentHash": "7531bb94080187ff2cb7ab86658d706842b99d1f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfEmail.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfEmail.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 207,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "ff5f1905a424ffb80a86c672ce8a2484010686e7"
+            "contentHash": "ff5f1905a424ffb80a86c672ce8a2484010686e7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfFax.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\HasOptedOutOfFax.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 205,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "8436af1a1e25d1251260bd40b57c3d17b97ff22d"
+            "contentHash": "8436af1a1e25d1251260bd40b57c3d17b97ff22d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\IndividualId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\IndividualId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 225,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "2d9503a4c05cc3892d33600b322bdad49052249b"
+            "contentHash": "2d9503a4c05cc3892d33600b322bdad49052249b",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Industry.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Industry.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 223,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47"
+            "contentHash": "6f0a5236c2130d964cc6b9654fd5f11e512dca47",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Jigsaw.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Jigsaw.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 195,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974"
+            "contentHash": "4ada28399de9ac97f1dc447fb1aaa8b887d11974",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\LastTransferDate.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\LastTransferDate.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 158,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "122ea00fa1906924b212a4d119a56b1df3bd79ff"
+            "contentHash": "122ea00fa1906924b212a4d119a56b1df3bd79ff",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\LeadSource.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\LeadSource.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 225,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "2edc10a4308166ada8b0fc2bece939fb3eea84b8"
+            "contentHash": "2edc10a4308166ada8b0fc2bece939fb3eea84b8",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\MobilePhone.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\MobilePhone.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 200,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "877087142debc4ed3ae3ae152908d60f1e5b8e4e"
+            "contentHash": "877087142debc4ed3ae3ae152908d60f1e5b8e4e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Name.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Name.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 192,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9"
+            "contentHash": "68769f37d93e5a8c8bc5ad8c2581f0f06ddca5f9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\NumberOfEmployees.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\NumberOfEmployees.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 206,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "9d2f6c78b600962d19202740171268557046a498"
+            "contentHash": "9d2f6c78b600962d19202740171268557046a498",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\OwnerId.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\OwnerId.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 219,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798"
+            "contentHash": "52c2c64fa2e6525fc461c88e9c37849e89259798",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Phone.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Phone.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 194,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487"
+            "contentHash": "d58ccb85259d8a88abf129f4ea89ea8304963487",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Rating.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Rating.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 221,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f"
+            "contentHash": "a8224eb175152b9deed680b818cbffd218dd5e3f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Status.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Status.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 220,
             "modifiedTime": 1593440228453,
             "changeTime": 1593440228453,
-            "contentHash": "4695531ecdd75f54fb8a03cb7f14e73ffbd13c93"
+            "contentHash": "4695531ecdd75f54fb8a03cb7f14e73ffbd13c93",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Title.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Title.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 194,
             "modifiedTime": 1593440228468,
             "changeTime": 1593440228468,
-            "contentHash": "8a48fbd36a0119a80ca1a7b0a48a57b35bd03141"
+            "contentHash": "8a48fbd36a0119a80ca1a7b0a48a57b35bd03141",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Website.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields\\Website.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 196,
             "modifiedTime": 1593440228468,
             "changeTime": 1593440228468,
-            "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea"
+            "contentHash": "38590f00b03c4be8e4116dff68bdeaf0d829bfea",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\fields\\AG_Client__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\fields\\AG_Client__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 548,
             "modifiedTime": 1593440228515,
             "changeTime": 1593440228515,
-            "contentHash": "50fdec21f877810472397bd3fbe1fe25077012b4"
+            "contentHash": "50fdec21f877810472397bd3fbe1fe25077012b4",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Intake__c-Intake Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Intake__c-Intake Layout.layout-meta.xml",
             "isDirectory": false,
+            "size": 3528,
+            "modifiedTime": 1593500394018,
+            "changeTime": 1593500394018,
+            "contentHash": "8c13a5b6854924cd13fdba8a398a8c6472e9392b",
             "isMetadataFile": true,
-            "size": 2793,
-            "modifiedTime": 1593440228515,
-            "changeTime": 1593440228515,
-            "contentHash": "0dcce0cd55a38010675214858183bdd44e8c6a94"
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8538,
             "modifiedTime": 1593440228531,
             "changeTime": 1593440228531,
-            "contentHash": "f6a6e931607b0eea789d2d2ca2e72092cf778122"
+            "contentHash": "f6a6e931607b0eea789d2d2ca2e72092cf778122",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8976,
             "modifiedTime": 1593440228546,
             "changeTime": 1593440228546,
-            "contentHash": "2926caf542e7bb72f5dd58e5f9dd7667d4a64058"
+            "contentHash": "2926caf542e7bb72f5dd58e5f9dd7667d4a64058",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 10093,
             "modifiedTime": 1593440228562,
             "changeTime": 1593440228562,
-            "contentHash": "d6ee97d58ecfa0b96e7ef75c06cb82fa4305c7cc"
+            "contentHash": "d6ee97d58ecfa0b96e7ef75c06cb82fa4305c7cc",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 10141,
             "modifiedTime": 1593440228562,
             "changeTime": 1593440228562,
-            "contentHash": "aef3c83b936c8bda3110c5b55eebe991ca0311c1"
+            "contentHash": "aef3c83b936c8bda3110c5b55eebe991ca0311c1",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Sales%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Sales%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8976,
             "modifiedTime": 1593440228578,
             "changeTime": 1593440228578,
-            "contentHash": "2926caf542e7bb72f5dd58e5f9dd7667d4a64058"
+            "contentHash": "2926caf542e7bb72f5dd58e5f9dd7667d4a64058",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Account-Account %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 10141,
             "modifiedTime": 1593440228593,
             "changeTime": 1593440228593,
-            "contentHash": "41239ea9be5e59954d40c54aac85c19687187ef9"
+            "contentHash": "41239ea9be5e59954d40c54aac85c19687187ef9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Support%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Support%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 8415,
             "modifiedTime": 1593440228609,
             "changeTime": 1593440228609,
-            "contentHash": "660fa7d424e5a062e77433be8dc3f10e6a72107e"
+            "contentHash": "660fa7d424e5a062e77433be8dc3f10e6a72107e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-DHS_Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-DHS_Layout.layout-meta.xml",
             "isDirectory": false,
+            "size": 5078,
+            "modifiedTime": 1593499494547,
+            "changeTime": 1593499494547,
+            "contentHash": "c5edca3e798e8388a793ad4d1d6c67993f080ff2",
             "isMetadataFile": true,
-            "size": 4659,
-            "modifiedTime": 1593440228609,
-            "changeTime": 1593440228609,
-            "contentHash": "51158ff0e29adcc74fcfd87e5fb5187d125c6a21"
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Marketing%29 Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-Lead %28Marketing%29 Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9028,
             "modifiedTime": 1593440228624,
             "changeTime": 1593440228624,
-            "contentHash": "9d4d094d7a3ebaea9941218aaf8e635365e1cbc3"
+            "contentHash": "9d4d094d7a3ebaea9941218aaf8e635365e1cbc3",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Intake_Request.quickAction-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Intake_Request.quickAction-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 354,
             "modifiedTime": 1593440228624,
             "changeTime": 1593440228624,
-            "contentHash": "b3e2c3dd83794eebcd823cfb3243b15019fafcf9"
+            "contentHash": "b3e2c3dd83794eebcd823cfb3243b15019fafcf9",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5397,
             "modifiedTime": 1593440228624,
             "changeTime": 1593440228624,
-            "contentHash": "c362dc56179689fe3cef76ba8c6e10ec085e9500"
+            "contentHash": "c362dc56179689fe3cef76ba8c6e10ec085e9500",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Lead_Record_Page.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Lead_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4274,
-            "modifiedTime": 1593440228640,
-            "changeTime": 1593440228640,
-            "contentHash": "99bea4103e7f211d9aeace855be71633d8299413"
+            "modifiedTime": 1593499494567,
+            "changeTime": 1593499494567,
+            "contentHash": "bad1205afb3a2d9bda1c34b9d496232779ffab6e",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 9775,
             "modifiedTime": 1593440228704,
             "changeTime": 1593440228704,
-            "contentHash": "561d0c7cad1be588f276b36a332e58f926c4f473"
+            "contentHash": "561d0c7cad1be588f276b36a332e58f926c4f473",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\standardValueSets",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\standardValueSets",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228265,
             "changeTime": 1593440228265,
-            "contentHash": "5810f57db20ad5338619646e2abbad2fd44646ce"
+            "contentHash": "5810f57db20ad5338619646e2abbad2fd44646ce",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228296,
             "changeTime": 1593440228296,
-            "contentHash": "000724b417040bfe1652fe6164be4045b1f31b93"
+            "contentHash": "000724b417040bfe1652fe6164be4045b1f31b93",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\compactLayouts",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\compactLayouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228296,
             "changeTime": 1593440228296,
-            "contentHash": "60f177e1719d82f3247a4fdd1b4ad7fbeef7d443"
+            "contentHash": "60f177e1719d82f3247a4fdd1b4ad7fbeef7d443",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Account\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228343,
             "changeTime": 1593440228343,
-            "contentHash": "5648de37911c35a56aae0c051dc957d1e21c4d5a"
+            "contentHash": "5648de37911c35a56aae0c051dc957d1e21c4d5a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "1e313b61525cfa6c6d38a0c626822327d3027956"
+            "contentHash": "1e313b61525cfa6c6d38a0c626822327d3027956",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\compactLayouts",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\compactLayouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228437,
             "changeTime": 1593440228437,
-            "contentHash": "072b3132e75cc41a6fc8321788a964446b0b95e1"
+            "contentHash": "072b3132e75cc41a6fc8321788a964446b0b95e1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\Lead\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228468,
             "changeTime": 1593440228468,
-            "contentHash": "abfaa1aaea9efb183877a165a0e842c5c10618d0"
+            "contentHash": "abfaa1aaea9efb183877a165a0e842c5c10618d0",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593440228624,
             "changeTime": 1593440228624,
-            "contentHash": "dea8808f51d372650d954be7f5f23f48fe33abfc"
+            "contentHash": "dea8808f51d372650d954be7f5f23f48fe33abfc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1593440228624,
-            "changeTime": 1593440228624,
-            "contentHash": "e4f2fca97c5e2030be01168ff3c5ce24072ff5be"
+            "modifiedTime": 1593499494554,
+            "changeTime": 1593499494554,
+            "contentHash": "9bc64d322674ff5ba4cc306d4ac078b03d7a84f5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593498902648,
+            "changeTime": 1593498902648,
+            "contentHash": "5faf5cae376d0a969d85df0a3b0b296221a6d8f1",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593498317785,
+            "changeTime": 1593498317785,
+            "contentHash": "110fbf7c33e496711638becaa233890c84260596",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593498841501,
+            "changeTime": 1593498841501,
+            "contentHash": "6d5e9bd8cc4a8c06b538d89ddf8b7fa03fd4522c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593498171116,
+            "changeTime": 1593498171116,
+            "contentHash": "7d69cbd23d03a2e928f281edc9ca5bbdb38419c5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.html",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.html",
+            "isDirectory": false,
+            "size": 27,
+            "modifiedTime": 1593498902647,
+            "changeTime": 1593498902647,
+            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js",
+            "isDirectory": false,
+            "size": 1302,
+            "modifiedTime": 1593499161162,
+            "changeTime": 1593499161162,
+            "contentHash": "30ad144b67f4200df2104f015a9eae62a4f4c217",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js-meta.xml",
+            "isDirectory": false,
+            "size": 482,
+            "modifiedTime": 1593498932807,
+            "changeTime": 1593498932807,
+            "contentHash": "b0bb2addf67fc3c68bc4de68c7e9ee090deaad28",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.html",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.html",
+            "isDirectory": false,
+            "size": 27,
+            "modifiedTime": 1593498317783,
+            "changeTime": 1593498317783,
+            "contentHash": "f77f405276fce2c457b8423303ffccb5a455abce",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
+            "isDirectory": false,
+            "size": 1301,
+            "modifiedTime": 1593498771485,
+            "changeTime": 1593498771485,
+            "contentHash": "b58bb376966cd26ee7276b637d9fec9eb2a4104b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js-meta.xml",
+            "isDirectory": false,
+            "size": 481,
+            "modifiedTime": 1593498961797,
+            "changeTime": 1593498961797,
+            "contentHash": "fbbedce542be862624cb8db56de5611b4076434b",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.auradoc",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1593498841492,
+            "changeTime": 1593498841492,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.cmp",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.cmp",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1593498853368,
+            "changeTime": 1593498853368,
+            "contentHash": "44fa4aa174a301f85142adeb417499aebf5b78d0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1593498841490,
+            "changeTime": 1593498841490,
+            "contentHash": "228bed42f73b74ee40f064d170cb86f4a1f64517",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.css",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1593498841495,
+            "changeTime": 1593498841495,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.design",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.design",
+            "isDirectory": false,
+            "size": 61,
+            "modifiedTime": 1593498880035,
+            "changeTime": 1593498880035,
+            "contentHash": "4e08b2ea0fec7aa5086ecf1cb4f038797de3b83e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.svg",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigation.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1593498841499,
+            "changeTime": 1593498841499,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationController.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationController.js",
+            "isDirectory": false,
+            "size": 480,
+            "modifiedTime": 1593498865688,
+            "changeTime": 1593498865688,
+            "contentHash": "a5de9e5c2230d2ac45b6dcf043f1541d0f15150a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationHelper.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationHelper.js",
+            "isDirectory": false,
+            "size": 334,
+            "modifiedTime": 1593498873292,
+            "changeTime": 1593498873292,
+            "contentHash": "413927f902f77bd39d2aeb6853c3ec11c7c806f5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationRenderer.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\dischargeNavigation\\dischargeNavigationRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1593498841502,
+            "changeTime": 1593498841502,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.auradoc",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1593498171106,
+            "changeTime": 1593498171106,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.cmp",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.cmp",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1593498174751,
+            "changeTime": 1593498174751,
+            "contentHash": "44fa4aa174a301f85142adeb417499aebf5b78d0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1593498171103,
+            "changeTime": 1593498171103,
+            "contentHash": "228bed42f73b74ee40f064d170cb86f4a1f64517",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.css",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1593498171109,
+            "changeTime": 1593498171109,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.design",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.design",
+            "isDirectory": false,
+            "size": 70,
+            "modifiedTime": 1593498230887,
+            "changeTime": 1593498230887,
+            "contentHash": "0f18b07b0043c40cf32361d392bc4d60e0042ae2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.svg",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigation.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1593498171112,
+            "changeTime": 1593498171112,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationController.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationController.js",
+            "isDirectory": false,
+            "size": 481,
+            "modifiedTime": 1593498190823,
+            "changeTime": 1593498190823,
+            "contentHash": "df2d40e727e93c3476856c5314c415e2f746415a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationHelper.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationHelper.js",
+            "isDirectory": false,
+            "size": 333,
+            "modifiedTime": 1593498205429,
+            "changeTime": 1593498205429,
+            "contentHash": "d43a6bcda886f0e14b40675c7c5824a663e52369",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationRenderer.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\waitListNavigation\\waitListNavigationRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1593498171116,
+            "changeTime": 1593498171116,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Discharge.quickAction-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Discharge.quickAction-meta.xml",
+            "isDirectory": false,
+            "size": 352,
+            "modifiedTime": 1593499494551,
+            "changeTime": 1593499494551,
+            "contentHash": "44f1168b56c9df2fe602a749edee27b072874125",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Waitlist.quickAction-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\Lead.AG_Waitlist.quickAction-meta.xml",
+            "isDirectory": false,
+            "size": 350,
+            "modifiedTime": 1593499494554,
+            "changeTime": 1593499494554,
+            "contentHash": "d14962526e72f0ab03cb5316d836e1d0f28301a1",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs\\AG_Intake__c.tab-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs\\AG_Intake__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 186,
+            "modifiedTime": 1593500394023,
+            "changeTime": 1593500394023,
+            "contentHash": "57433bab2c54fe80ed8e64f061dc03cbd1317c2f",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 16494,
+            "modifiedTime": 1593500394032,
+            "changeTime": 1593500394032,
+            "contentHash": "bdc382782a24b34c868e620b9e882e123945fbac",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 16486,
+            "modifiedTime": 1593500394063,
+            "changeTime": 1593500394063,
+            "contentHash": "78df7a8b2c58ae628832671406392e3b4dc53a75",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 16831,
+            "modifiedTime": 1593500394172,
+            "changeTime": 1593500394172,
+            "contentHash": "d0411a6fb4744c33aef96fdca092d34868c5b550",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593500394023,
+            "changeTime": 1593500394023,
+            "contentHash": "feb1bd0444f2b88cc07ad7fb9b7196fe88e351da",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\compactLayouts\\AG_Intake_compact_Layout.compactLayout-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\compactLayouts\\AG_Intake_compact_Layout.compactLayout-meta.xml",
+            "isDirectory": false,
+            "size": 361,
+            "modifiedTime": 1593500693440,
+            "changeTime": 1593500693440,
+            "contentHash": "1e61e18106ecdf0f397c5db9e24b562f3b741dd0",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Intake_Record_Page.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Intake_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 5237,
+            "modifiedTime": 1593500693456,
+            "changeTime": 1593500693456,
+            "contentHash": "53da35bbfe22002abefb1e4852566f367c7612a8",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\compactLayouts",
+        {
+            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Intake__c\\compactLayouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593500693440,
+            "changeTime": 1593500693440,
+            "contentHash": "98f3c3839e779156d82ad03bf4cb3f3f7319604a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]

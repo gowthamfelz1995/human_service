@@ -68,8 +68,4 @@
         <name>AG_Human_Service</name>
         <type>CustomApplication</type>
     </appMenuItems>
-    <appMenuItems>
-        <name>Human Service Test</name>
-        <type>Network</type>
-    </appMenuItems>
 </AppMenu>
