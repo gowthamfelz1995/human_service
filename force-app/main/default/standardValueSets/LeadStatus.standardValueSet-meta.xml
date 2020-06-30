@@ -38,13 +38,13 @@
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Waitlisted</fullName>
+        <fullName>AG_Waitlist</fullName>
         <default>false</default>
         <label>Waitlisted</label>
         <converted>false</converted>
     </standardValue>
     <standardValue>
-        <fullName>Discharged</fullName>
+        <fullName>AG_Discharge</fullName>
         <default>false</default>
         <label>Discharged</label>
         <converted>false</converted>
