@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>c_1dd5b32f_97a0_4098_ab1f_1f5198d2e1d4</name>
+        <choiceText>cocaine</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>cocaine</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_526218ca_8b1c_41b5_8c2d_96eb58aa8522</name>
+        <choiceText>Less than 2 years</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Less than 2 years</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_67950b4f_b889_4450_b670_7caef91378f1</name>
+        <choiceText>pills</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>pills</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_cb4b34b7_f5ca_45fb_a0f1_4229420e617b</name>
+        <choiceText>More than 4 years</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>More than 4 years</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_dc436214_189b_462e_aee3_5b36fadeaa51</name>
+        <choiceText>More than 2 years</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>More than 2 years</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>Drug Assessment</interviewLabel>
+    <label>Drug Assessment</label>
+    <processMetadataValues>
+        <name>autoProgressEnabled</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_ef3bccff_9314_4d6a_8489_067d8a644a03</name>
+        <label>Page 1</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_67f7c591_6e28_48a4_806f_4bd83943222e</name>
+            <choiceReferences>c_526218ca_8b1c_41b5_8c2d_96eb58aa8522</choiceReferences>
+            <choiceReferences>c_dc436214_189b_462e_aee3_5b36fadeaa51</choiceReferences>
+            <choiceReferences>c_cb4b34b7_f5ca_45fb_a0f1_4229420e617b</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimePicklist</extensionName>
+            <fieldText>&lt;p&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;How long have you been using drugs ?&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>How long have you been using drugs ?</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <processMetadataValues>
+                <name>autoProgressAction</name>
+                <value>
+                    <stringValue>NONE</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>q_6e2b8af7_9114_44d9_90a7_eac8f370ad55</name>
+            <choiceReferences>c_1dd5b32f_97a0_4098_ab1f_1f5198d2e1d4</choiceReferences>
+            <choiceReferences>c_67950b4f_b889_4450_b670_7caef91378f1</choiceReferences>
+            <dataType>String</dataType>
+            <extensionName>survey:runtimePicklist</extensionName>
+            <fieldText>&lt;p&gt;&lt;span class=&quot;ql-cursor&quot;&gt;&lt;/span&gt;What kind of drugs do you use frequently ?&lt;/p&gt;</fieldText>
+            <fieldType>ComponentChoice</fieldType>
+            <helpText>What kind of drugs do you use frequently ?</helpText>
+            <isRequired>false</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_ef3bccff_9314_4d6a_8489_067d8a644a03</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>description</name>
+                <value>
+                    <stringValue>{!welcome_question_dref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>welcome_page</startElementReference>
+    <status>Active</status>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <text/>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <text>&lt;p&gt;&lt;b&gt;Thank you&lt;/b&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_dref_tt</name>
+        <text>Please answer few questions that could help us to track what kind of service will be suitable for you.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <text>&lt;p&gt;&lt;b&gt;Welcome to human service center ,&lt;/b&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue/>
+        </value>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>
