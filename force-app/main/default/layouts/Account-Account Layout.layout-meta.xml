@@ -159,6 +159,14 @@
         </relatedContentItems>
     </relatedContent>
     <relatedLists>
+        <fields>Name</fields>
+        <fields>SurveySubInvitationName</fields>
+        <fields>SurveySubInvitationLink</fields>
+        <fields>SurveySubInvitationParticipant</fields>
+        <fields>SurveySubInvitationResStatus</fields>
+        <relatedList>SurveySubjectRecords</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
@@ -234,7 +242,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hN0000001euZW</masterLabel>
+        <masterLabel>00hN0000001f1t9</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

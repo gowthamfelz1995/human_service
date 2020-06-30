@@ -167,13 +167,20 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Intakes</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>00NN0000008o7hK</fields>
+        <fields>00NN0000008o7hO</fields>
+        <fields>00NN0000008o7hN</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
     <searchLayouts>
         <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
-        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
         <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
-        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
