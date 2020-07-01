@@ -60,7 +60,7 @@ export default class SubService extends NavigationMixin(LightningElement) {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId: this.recordId,
+                recordId: this.intake,
                 objectApiName: 'AG_Intake__c',
                 actionName: 'view'
             }

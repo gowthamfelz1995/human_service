@@ -167,14 +167,34 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service_Line_Item__c.AG_From_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service_Line_Item__c.AG_Intake__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service_Line_Item__c.AG_Service__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service_Line_Item__c.AG_To_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>AG_Service_Request__c.AG_Intake__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>AG_Service_Request__c.AG_Service_Type__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -193,12 +213,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>AG_Service__c.AG_To_Date__c</field>
+        <field>AG_Service__c.AG_Service_Name__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>AG_Service__c.Service_Type__c</field>
+        <field>AG_Service__c.AG_Service_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service__c.AG_To_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -228,7 +253,13 @@
         <layout>AG_Intake__c-Intake Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Service_Line_Item__c-Service Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Service_Request__c-Service Request Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Service__c-Service Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
@@ -332,7 +363,15 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>AG_Service_Line_Item__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>AG_Service_Request__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Service__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
