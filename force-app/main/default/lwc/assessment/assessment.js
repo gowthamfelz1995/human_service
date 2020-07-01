@@ -43,6 +43,12 @@ export default class Assessment extends NavigationMixin(LightningElement) {
         .then((result) => {
             const newSurveyInvitation = JSON.parse(result)
             console.log("Status changed"+JSON.stringify(newSurveyInvitation));
+            // var urlEvent = $A.get("e.force:navigateToURL");
+            // urlEvent.setParams({
+            //   "url": newSurveyInvitation.data.InvitationLink
+            // });
+            // urlEvent.fire();
+            window.open(newSurveyInvitation.data.InvitationLink); 
         })
         .catch((error) => {
             console.log("Error");

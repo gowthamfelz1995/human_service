@@ -39,7 +39,7 @@
             <processMetadataValues>
                 <name>defaultValue</name>
                 <value>
-                    <elementReference>var_S_b8e0fb63_4547_4a8d_afb5_c6c81b9683b5_defaultValue</elementReference>
+                    <elementReference>var_S_6811cb1a_ac8a_4a05_a3c9_1c9cf3c87a7f_defaultValue</elementReference>
                 </value>
             </processMetadataValues>
             <processMetadataValues>
@@ -60,7 +60,7 @@
                     <stringValue>NPS</stringValue>
                 </value>
             </processMetadataValues>
-            <name>S_b8e0fb63_4547_4a8d_afb5_c6c81b9683b5</name>
+            <name>S_6811cb1a_ac8a_4a05_a3c9_1c9cf3c87a7f</name>
             <dataType>Number</dataType>
             <extensionName>survey:runtimeNps</extensionName>
             <fieldText>How likely are you to recommend our service to a friend or colleague?</fieldText>
@@ -75,7 +75,7 @@
                     <stringValue>NONE</stringValue>
                 </value>
             </processMetadataValues>
-            <name>S_69be2d0b_d082_4e65_abb0_7989d0aec656</name>
+            <name>S_17bd7b4c_9766_468d_8123_aa96d746465c</name>
             <dataType>String</dataType>
             <fieldText>Any comments or feedback for us?</fieldText>
             <fieldType>InputField</fieldType>
@@ -86,7 +86,7 @@
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>surveyQuestionPage</startElementReference>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>thankYouDescriptionTextTemplate</name>
         <text/>
@@ -143,7 +143,7 @@
         </value>
     </variables>
     <variables>
-        <name>var_S_b8e0fb63_4547_4a8d_afb5_c6c81b9683b5_defaultValue</name>
+        <name>var_S_6811cb1a_ac8a_4a05_a3c9_1c9cf3c87a7f_defaultValue</name>
         <dataType>Number</dataType>
         <isCollection>false</isCollection>
         <isInput>true</isInput>
