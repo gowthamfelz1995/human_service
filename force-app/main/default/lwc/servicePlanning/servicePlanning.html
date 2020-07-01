@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Choose Service" icon-name="action:new_case">
+        <lightning-layout vertical-align="center" class="slds-p-around_medium">
+            <lightning-layout-item size="12">
+
+                <lightning-record-view-form object-api-name={serviceRequest}>
+                    <lightning-output-field field-name="Name">
+                    </lightning-output-field>
+                </lightning-record-view-form>
+
+
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>
