@@ -17,6 +17,9 @@
             ],
             "c/servicePlanning": [
                 "servicePlanning/servicePlanning.js"
+            ],
+            "c/subService": [
+                "subService/subService.js"
             ]
         }
     },
