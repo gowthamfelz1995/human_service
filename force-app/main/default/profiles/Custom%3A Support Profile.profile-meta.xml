@@ -108,6 +108,21 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
+        <field>AG_Activity__c.AG_Activity_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Activity__c.AG_Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Activity__c.AG_Service_Line_Item__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>AG_Assessment__c.AG_Assessment_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -247,6 +262,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AG_Activity__c-Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Assessment__c-Assessment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -358,6 +376,10 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>AG_Activity__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Intake__c</tab>
         <visibility>Hidden</visibility>

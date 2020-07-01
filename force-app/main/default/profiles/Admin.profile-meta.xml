@@ -107,6 +107,21 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Activity__c.AG_Activity_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Activity__c.AG_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Activity__c.AG_Service_Line_Item__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>AG_Assessment__c.AG_Assessment_Date__c</field>
         <readable>false</readable>
@@ -247,6 +262,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AG_Activity__c-Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Assessment__c-Assessment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -270,6 +288,15 @@
     <layoutAssignments>
         <layout>SurveyInvitation-Survey Invitation Layout</layout>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Activity__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -403,6 +430,10 @@
         <apexPage>UnderConstruction</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
+    <tabVisibilities>
+        <tab>AG_Activity__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Intake__c</tab>
         <visibility>DefaultOn</visibility>
