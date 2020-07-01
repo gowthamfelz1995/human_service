@@ -11,6 +11,9 @@
             ],
             "c/discharge": [
                 "discharge/discharge.js"
+            ],
+            "c/assessment": [
+                "assessment/assessment.js"
             ]
         }
     },

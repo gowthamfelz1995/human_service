@@ -62,6 +62,11 @@
     </layoutSections>
     <platformActionList>
         <actionListContext>Record</actionListContext>
+        <platformActionListItems>
+            <actionName>AG_Intake__c.AG_Assessment</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
     </platformActionList>
     <quickActionList/>
     <relatedLists>
@@ -94,7 +99,12 @@
         <fields>Participant</fields>
         <fields>Survey</fields>
         <fields>ResponseStatus</fields>
+        <fields>Id</fields>
         <relatedList>SurveyInvitation.AG_Intake__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>AG_Service_Request__c.AG_Intake__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
