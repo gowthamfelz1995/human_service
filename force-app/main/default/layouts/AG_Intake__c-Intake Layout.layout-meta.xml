@@ -100,14 +100,6 @@
         <relatedList>AG_Assessment__c.AG_Intake__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>Name</fields>
-        <fields>Participant</fields>
-        <fields>Survey</fields>
-        <fields>ResponseStatus</fields>
-        <fields>Id</fields>
-        <relatedList>SurveyInvitation.AG_Intake__c</relatedList>
-    </relatedLists>
-    <relatedLists>
         <fields>NAME</fields>
         <relatedList>AG_Service_Request__c.AG_Intake__c</relatedList>
     </relatedLists>

@@ -280,9 +280,7 @@
     <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>SurveyInvitation-Survey Invitation Layout</layout>
-    </layoutAssignments>
+   
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>

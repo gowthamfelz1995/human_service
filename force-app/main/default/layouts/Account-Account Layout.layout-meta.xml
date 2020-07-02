@@ -158,15 +158,7 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>SurveySubInvitationName</fields>
-        <fields>SurveySubInvitationLink</fields>
-        <fields>SurveySubInvitationParticipant</fields>
-        <fields>SurveySubInvitationResStatus</fields>
-        <relatedList>SurveySubjectRecords</relatedList>
-    </relatedLists>
-    <relatedLists>
+     <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>
         <fields>CONTACT.EMAIL</fields>
