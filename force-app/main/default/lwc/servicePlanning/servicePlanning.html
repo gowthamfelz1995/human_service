@@ -3,13 +3,32 @@
         <lightning-layout vertical-align="center" class="slds-p-around_medium">
             <lightning-layout-item size="12">
 
-                <lightning-record-view-form object-api-name={serviceRequest}>
-                    <lightning-output-field field-name="Name">
+                <lightning-record-view-form record-id={serviceRequestId} object-api-name={serviceRequest}>
+                    <lightning-output-field field-name="Name" value={serviceRequestName}>
+                    </lightning-output-field>
+                    <lightning-output-field field-name="AG_Service_Type__c" value={serviceType}>
                     </lightning-output-field>
                 </lightning-record-view-form>
 
+                <div class="slds-around_medium">
+                    <lightning-input label="Choose Service" type="search" placeholder="Type here to search..."
+                        onchange={handleService}></lightning-input>
+                </div>
 
             </lightning-layout-item>
         </lightning-layout>
+
+        <template if:true={services}>
+            <template for:each={services} for:item="service">
+                <c-sub-service key={service.Id} service={service} intake={recordId}></c-sub-service>
+            </template>
+        </template>
+
+        <template if:false={services}>
+            <div class="slds-align_absolute-center">
+                <lightning-button label="Return to Intake" variant="neutral" onclick={handleCancel}></lightning-button>
+            </div>
+        </template>
+
     </lightning-card>
 </template>

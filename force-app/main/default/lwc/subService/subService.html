@@ -1,0 +1,48 @@
+<template>
+    <template if:true={service}>
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-m-top_small">
+            <thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Service Name">Service Name</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="From Date">From Date</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="To Date">To Date</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="slds-hint-parent" key={service.Id}>
+                    <td>
+                        <div class="slds-truncate">{service.AG_Service_Name__c}</div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">
+                            <lightning-input label="From Date" onchange={getFromDate} value={fromDate} type="Date">
+
+                            </lightning-input>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="slds-truncate">
+                            <lightning-input label="To Date" onchange={getToDate} value={toDate} type="Date">
+
+                            </lightning-input>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </template>
+    <template if:false={service}>
+        <p>No service available.</p>
+    </template>
+    <div class="footer">
+        <lightning-button label="Save" variant="brand" onclick={saveServiceLineItem}></lightning-button>
+        &nbsp; &nbsp;
+        <lightning-button label="Cancel" variant="neutral" onclick={handleCancel}></lightning-button>
+    </div>
+</template>
