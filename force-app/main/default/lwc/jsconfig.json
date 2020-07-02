@@ -12,14 +12,14 @@
             "c/discharge": [
                 "discharge/discharge.js"
             ],
-            "c/assessment": [
-                "assessment/assessment.js"
-            ],
             "c/servicePlanning": [
                 "servicePlanning/servicePlanning.js"
             ],
             "c/subService": [
                 "subService/subService.js"
+            ],
+            "c/serviceRequest": [
+                "serviceRequest/serviceRequest.js"
             ]
         }
     },
