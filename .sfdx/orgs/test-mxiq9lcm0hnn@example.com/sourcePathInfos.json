@@ -1004,10 +1004,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
             "isDirectory": false,
-            "size": 6846,
-            "modifiedTime": 1593614899297,
-            "changeTime": 1593614899297,
-            "contentHash": "c07844e8feefa98a14de99ca50d2c6484724e549",
+            "size": 6848,
+            "modifiedTime": 1593668781262,
+            "changeTime": 1593668781262,
+            "contentHash": "8816a0dd785afb15d6c131c4265a77962f25c38e",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -1913,14 +1913,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 6398,
             "modifiedTime": 1593668585140,
             "changeTime": 1593668585140,
-            "contentHash": "7ed5a7e4fc05d2b11d92c78f9e7b3f8e92efab39"
+            "contentHash": "7ed5a7e4fc05d2b11d92c78f9e7b3f8e92efab39",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -2261,16 +2261,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
             "isDirectory": false,
-            "size": 1465,
-            "modifiedTime": 1593435790890,
-            "changeTime": 1593435790890,
-            "contentHash": "37bedaed26ad2ac9564e258bf1bdab9ea87689a7",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 1819,
+            "modifiedTime": 1593670555857,
+            "changeTime": 1593670555857,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "a92778b2aaa0a628fa401cd8bf298deba8f8f699"
         }
     ],
     [

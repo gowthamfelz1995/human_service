@@ -108,7 +108,7 @@ public with sharing class AG_Human_Service_CL {
             task.Priority = 'High';
             insert task;
 
-            return '{"success" : true, "data" : '+JSON.serialize(lead)+'}';
+            return '{"success" : true, "data" : '+JSON.serialize(intake)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());

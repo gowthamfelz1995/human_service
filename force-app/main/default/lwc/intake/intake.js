@@ -23,7 +23,10 @@ export default class Intake extends NavigationMixin(LightningElement) {
 
     @api status = 'Account - converted';
 
+    @api intakeId;
+
     handleSuccess(event) {
+        this.intakeId = event.detail.id;
         const successEvent = new ShowToastEvent({
             title: "Success",
             message: "Intake process completed successfully",
@@ -31,7 +34,7 @@ export default class Intake extends NavigationMixin(LightningElement) {
         });
         this.dispatchEvent(successEvent);
         this.changeStatusForReferral();
-        this.handleCancel(event);
+        this.returnToIntake(this.intakeId);
     }
 
     changeStatusForReferral() {
@@ -47,7 +50,18 @@ export default class Intake extends NavigationMixin(LightningElement) {
             })
     }
 
-    handleCancel(event) {
+    returnToIntake(intakeId) {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: intakeId,
+                objectApiName: this.intake,
+                actionName: 'view'
+            }
+        });
+    }
+
+    handleCancel() {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {

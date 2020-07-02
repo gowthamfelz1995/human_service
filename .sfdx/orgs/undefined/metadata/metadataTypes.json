@@ -1,0 +1,11 @@
+{
+  "status": 1,
+  "name": "NoOrgFound",
+  "message": "No org configuration found for name undefined",
+  "exitCode": 1,
+  "commandName": "MdapiDescribemetadataCommand",
+  "stack": "NoOrgFound: No org configuration found for name undefined\n    at Function.create (C:\\Users\\dell\\AppData\\Local\\sfdx\\client\\7.62.1-309fe6da17\\node_modules\\salesforce-alm\\node_modules\\@salesforce\\command\\node_modules\\@salesforce\\core\\lib\\sfdxError.js:141:16)\n    at AuthInfo.initAuthOptions (C:\\Users\\dell\\AppData\\Local\\sfdx\\client\\7.62.1-309fe6da17\\node_modules\\salesforce-alm\\node_modules\\@salesforce\\command\\node_modules\\@salesforce\\core\\lib\\authInfo.js:528:53)",
+  "warnings": [
+    "The error message \"NoOrgFound\" has been deprecated and will be removed in v46 or later.  It will become \"NamedOrgNotFound\"."
+  ]
+}
