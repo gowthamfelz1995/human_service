@@ -85,15 +85,7 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
-    <platformActionList>
-        <actionListContext>Record</actionListContext>
-        <platformActionListItems>
-            <actionName>Lead.AG_Intake_Request</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
-        </platformActionListItems>
-    </platformActionList>
-    <quickActionList/>
+   
     <relatedContent>
         <relatedContentItems>
             <layoutItem>
