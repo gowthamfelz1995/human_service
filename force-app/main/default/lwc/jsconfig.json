@@ -23,6 +23,15 @@
             ],
             "c/assessment": [
                 "assessment/assessment.js"
+            ],
+            "c/assessmentListItemBubbling": [
+                "assessmentListItemBubbling/assessmentListItemBubbling.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/assessmentTemplate": [
+                "assessmentTemplate/assessmentTemplate.js"
             ]
         }
     },

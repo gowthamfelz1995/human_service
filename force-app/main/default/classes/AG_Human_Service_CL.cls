@@ -134,4 +134,11 @@ public with sharing class AG_Human_Service_CL {
             return '{"success": false, "message": "'+e.getMessage()+'"}';
         }
     }
+
+    @AuraEnabled(cacheable=true)
+    public static List<AG_Assessment_Template__c> getAssessmentTemplates() {
+        return [
+            SELECT Id, Name FROM AG_Assessment_Template__c LIMIT 10
+        ];
+    }
 }
