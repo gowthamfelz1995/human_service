@@ -20,6 +20,9 @@
             ],
             "c/serviceRequest": [
                 "serviceRequest/serviceRequest.js"
+            ],
+            "c/assessment": [
+                "assessment/assessment.js"
             ]
         }
     },

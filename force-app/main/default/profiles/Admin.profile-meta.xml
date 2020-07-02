@@ -122,6 +122,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Assessment_Questions__c.AG_Question_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>AG_Assessment__c.AG_Assessment_Date__c</field>
         <readable>false</readable>
@@ -183,6 +188,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Questionaire_Picklist_Value__c.AG_Assessment_Question__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Questionaire_Picklist_Value__c.AG_Picklist_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AG_Service_Line_Item__c.AG_From_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -199,6 +214,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AG_Service_Line_Item__c.AG_To_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Service_Request__c.AG_Assessment_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -282,6 +302,9 @@
         <layout>AG_Intake__c-Intake Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Questionaire_Picklist_Value__c-Questionaire Picklist Value Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Service_Line_Item__c-Service Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -342,6 +365,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AG_Intake__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Questionaire_Picklist_Value__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -473,6 +505,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>AG_Assessment_Questions__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>AG_Assessment_Template__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -490,6 +526,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Service__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Template_Questionnaires__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
