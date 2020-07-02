@@ -16,6 +16,9 @@
             </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
+        <componentInstances>
+            <componentName>chevronPath</componentName>
+        </componentInstances>
         <mode>Replace</mode>
         <name>header</name>
         <type>Region</type>
@@ -96,9 +99,9 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Intake Record Page</masterLabel>
+    <masterLabel>Service Request Record Page</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
-    <sobjectType>AG_Intake__c</sobjectType>
+    <sobjectType>AG_Service_Request__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>
     </template>

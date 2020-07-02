@@ -1,5 +1,11 @@
-declare module "@salesforce/apex/AG_Human_Service_CL.changeStatus" {
-  export default function changeStatus(param: {recordId: any, status: any}): Promise<any>;
+declare module "@salesforce/apex/AG_Human_Service_CL.findServiceRequest" {
+  export default function findServiceRequest(param: {recordId: any}): Promise<any>;
+}
+declare module "@salesforce/apex/AG_Human_Service_CL.waitListLead" {
+  export default function waitListLead(param: {recordId: any, status: any}): Promise<any>;
+}
+declare module "@salesforce/apex/AG_Human_Service_CL.dischargeClient" {
+  export default function dischargeClient(param: {recordId: any, status: any}): Promise<any>;
 }
 declare module "@salesforce/apex/AG_Human_Service_CL.changeStatusForLead" {
   export default function changeStatusForLead(param: {recordId: any, status: any}): Promise<any>;
