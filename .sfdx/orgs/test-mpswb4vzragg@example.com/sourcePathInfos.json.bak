@@ -1306,15 +1306,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
             "isDirectory": false,
-            "size": 4979,
-            "modifiedTime": 1593683507582,
-            "changeTime": 1593683507582,
-            "contentHash": "2a19ece1d7a02c94a8aa3a8194ed5442f098aa02",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 5903,
+            "modifiedTime": 1593688203798,
+            "changeTime": 1593688203798,
+            "isWorkspace": false,
+            "contentHash": "2e5e6c0e451b8d99631b8844c4883cdd5c8b300f"
         }
     ],
     [
@@ -2607,16 +2607,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\discharge\\discharge.js",
             "isDirectory": false,
-            "size": 1302,
-            "modifiedTime": 1593499161162,
-            "changeTime": 1593499161162,
-            "contentHash": "30ad144b67f4200df2104f015a9eae62a4f4c217",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 1344,
+            "modifiedTime": 1593688040531,
+            "changeTime": 1593688040531,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "5e56b035c922f8ca1496e6cb4fbc26838fc7e058"
         }
     ],
     [
@@ -2905,16 +2904,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
             "isDirectory": false,
-            "size": 1301,
-            "modifiedTime": 1593498771485,
-            "changeTime": 1593498771485,
-            "contentHash": "b58bb376966cd26ee7276b637d9fec9eb2a4104b",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 1336,
+            "modifiedTime": 1593687678097,
+            "changeTime": 1593687678097,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "7ac9da4452751317fbab1ed2a081e15abf8f7ae7"
         }
     ],
     [
@@ -6352,14 +6350,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\chevronPath\\chevronPathHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\chevronPath\\chevronPathHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1552,
             "modifiedTime": 1593683797197,
             "changeTime": 1593683797197,
-            "contentHash": "79508bcf5f6cf4f0e1c22d4f951fc2f368ef23d5"
+            "contentHash": "79508bcf5f6cf4f0e1c22d4f951fc2f368ef23d5",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [

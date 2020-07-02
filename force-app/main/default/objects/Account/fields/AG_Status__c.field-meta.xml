@@ -4,27 +4,16 @@
     <externalId>false</externalId>
     <label>Status</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
-    <trackTrending>false</trackTrending>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Started</fullName>
-                <default>true</default>
-                <label>Started</label>
-            </value>
-            <value>
-                <fullName>In Assessment</fullName>
+                <fullName>Intake</fullName>
                 <default>false</default>
-                <label>In Assessment</label>
-            </value>
-            <value>
-                <fullName>In service</fullName>
-                <default>false</default>
-                <label>In service</label>
+                <label>Intake</label>
             </value>
             <value>
                 <fullName>Discharged</fullName>
