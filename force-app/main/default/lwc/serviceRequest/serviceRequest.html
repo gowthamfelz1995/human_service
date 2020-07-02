@@ -1,5 +1,5 @@
 <template>
-    <lightning-card title="Assessment Process" icon-name="action:change_owner">
+    <lightning-card title="Service Request" icon-name="action:record">
         <lightning-layout vertical-align="center" class="slds-p-around_medium">
             <lightning-layout-item size="12">
                 <lightning-record-edit-form object-api-name={serviceRequest} onsuccess={handleSuccess}>
@@ -13,7 +13,7 @@
                     </lightning-input-field>
 
                     <div class="footer">
-                        <lightning-button class="slds-m-top_small" type="submit" label="Create Assessment" variant="brand">
+                        <lightning-button class="slds-m-top_small" type="submit" label="Create Request" variant="brand">
                         </lightning-button>
                         &nbsp; &nbsp;
                         <lightning-button class="slds-m-top_small" label="Cancel" variant="neutral"

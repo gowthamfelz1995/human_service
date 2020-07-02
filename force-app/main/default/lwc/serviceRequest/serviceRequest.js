@@ -1,6 +1,9 @@
-import { LightningElement, api } from 'lwc';
+import {
+    LightningElement,
+    api
+} from 'lwc';
+
 import SERVICE_REQUEST from '@salesforce/schema/AG_Service_Request__c';
-import createSurveyInvitationLink from '@salesforce/apex/AG_Human_Service_CL.createSurveyInvitationLink';
 
 import {
     ShowToastEvent
@@ -11,7 +14,11 @@ import {
 } from 'lightning/navigation';
 
 export default class Assessment extends NavigationMixin(LightningElement) {
+
     @api recordId;
+
+    @api serviceRequestId;
+
     serviceRequest = SERVICE_REQUEST;
 
     handleSuccess(event) {
@@ -20,11 +27,12 @@ export default class Assessment extends NavigationMixin(LightningElement) {
             message: "Service Request created successfully",
             variant: "success"
         });
-        const serviceRequestId = event.detail.id ;
-        this.createInvitationLink(serviceRequestId);
+        this.serviceRequestId = event.detail.id;
+        this.returnToServiceRequest(this.serviceRequestId);
         this.dispatchEvent(successEvent);
         this.handleCancel(event);
     }
+
     handleCancel(event) {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
@@ -36,22 +44,14 @@ export default class Assessment extends NavigationMixin(LightningElement) {
         });
     }
 
-    createInvitationLink(serviceRequestId){
-        createSurveyInvitationLink({
-            recordId: serviceRequestId
-    })
-        .then((result) => {
-            const newSurveyInvitation = JSON.parse(result)
-            console.log("Status changed"+JSON.stringify(newSurveyInvitation));
-            // var urlEvent = $A.get("e.force:navigateToURL");
-            // urlEvent.setParams({
-            //   "url": newSurveyInvitation.data.InvitationLink
-            // });
-            // urlEvent.fire();
-            window.open(newSurveyInvitation.data.InvitationLink); 
-        })
-        .catch((error) => {
-            console.log("Error");
-        })
+    returnToServiceRequest(serviceRequestId) {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: serviceRequestId,
+                objectApiName: 'AG_Service_Request__c',
+                actionName: 'view'
+            }
+        });
     }
 }
