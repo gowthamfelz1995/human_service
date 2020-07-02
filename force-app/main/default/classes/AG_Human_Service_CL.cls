@@ -60,19 +60,19 @@ public with sharing class AG_Human_Service_CL {
             AG_Service_Request__c serviceRequest = [SELECT Id,AG_Intake__c,AG_Service_Type__c  FROM AG_Service_Request__c WHERE Id =: recordId];
             String assessmentType = '' ;
 
-            if(serviceRequest.AG_Service_Type__c == 'Adults'){
-              assessmentType = 'Adults Assessment';
-            }
-            else{
-             assessmentType = 'Adults Assessment' ;
-            }
+            // if(serviceRequest.AG_Service_Type__c == 'Adults'){
+            //   assessmentType = 'Adults Assessment';
+            // }
+            // else{
+            //  assessmentType = 'Adults Assessment' ;
+            // }
 
-            Survey surveyRecord = [SELECT Id,Name FROM Survey WHERE Name =: assessmentType];
-            SurveyInvitation newSurveyInvitation = new SurveyInvitation(AG_Intake__c = serviceRequest.AG_Intake__c,SurveyId=surveyRecord.Id,Name=surveyRecord.Name);
-            insert newSurveyInvitation;
+            // Survey surveyRecord = [SELECT Id,Name FROM Survey WHERE Name =: assessmentType];
+            // SurveyInvitation newSurveyInvitation = new SurveyInvitation(AG_Intake__c = serviceRequest.AG_Intake__c,SurveyId=surveyRecord.Id,Name=surveyRecord.Name);
+            // insert newSurveyInvitation;
 
-            SurveyInvitation getSurveyInvite = [SELECT Id,SurveyId,InvitationLink,AG_Intake__c,Name FROM SurveyInvitation WHERE Id =: newSurveyInvitation.Id];
-            return '{"success" : true, "data" : '+JSON.serialize(getSurveyInvite)+'}';
+            // SurveyInvitation getSurveyInvite = [SELECT Id,SurveyId,InvitationLink,AG_Intake__c,Name FROM SurveyInvitation WHERE Id =: newSurveyInvitation.Id];
+            return '{"success" : true, "data" : '+JSON.serialize(serviceRequest)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());

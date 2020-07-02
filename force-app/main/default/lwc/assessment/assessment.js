@@ -48,7 +48,7 @@ export default class Assessment extends NavigationMixin(LightningElement) {
             //   "url": newSurveyInvitation.data.InvitationLink
             // });
             // urlEvent.fire();
-            window.open(newSurveyInvitation.data.InvitationLink); 
+           / // window.open(newSurveyInvitation.data.InvitationLink); 
         })
         .catch((error) => {
             console.log("Error");
