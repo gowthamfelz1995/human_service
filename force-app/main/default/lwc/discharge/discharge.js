@@ -11,7 +11,7 @@ import {
     ShowToastEvent
 } from 'lightning/platformShowToastEvent';
 
-import changeStatus from '@salesforce/apex/AG_Human_Service_CL.changeStatus';
+import dischargeClient from '@salesforce/apex/AG_Human_Service_CL.dischargeClient';
 
 export default class Discharge extends NavigationMixin(LightningElement) {
     @api recordId;
@@ -19,20 +19,21 @@ export default class Discharge extends NavigationMixin(LightningElement) {
     @api status = "Discharged";
 
     connectedCallback() {
-        changeStatus({
+        dischargeClient({
                 recordId: this.recordId,
                 status: this.status
             })
             .then((result) => {
+                const response = JSON.parse(result);
                 const successEvent = new ShowToastEvent({
                     title: "Success",
-                    message: "Lead discharged successfully",
+                    message: response.message,
                     variant: "success"
                 });
                 this.dispatchEvent(successEvent);
             })
             .catch((error) => {
-                this.message = "something went wrong";
+                this.message = response.message;
                 this.error = error;
             });
         this.handleCancel();

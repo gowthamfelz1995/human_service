@@ -11,7 +11,7 @@ import {
     ShowToastEvent
 } from 'lightning/platformShowToastEvent';
 
-import changeStatus from '@salesforce/apex/AG_Human_Service_CL.changeStatus';
+import waitListLead from '@salesforce/apex/AG_Human_Service_CL.waitListLead';
 
 export default class WaitList extends NavigationMixin(LightningElement) {
 
@@ -20,20 +20,21 @@ export default class WaitList extends NavigationMixin(LightningElement) {
     @api status = 'Waitlisted';
 
     connectedCallback() {
-        changeStatus({
+        waitListLead({
                 recordId: this.recordId,
                 status: this.status
             })
             .then((result) => {
+                const response = JSON.parse(response);
                 const successEvent = new ShowToastEvent({
                     title: "Success",
-                    message: "Lead waitlisted successfully",
+                    message: response.message,
                     variant: "success"
                 });
                 this.dispatchEvent(successEvent);
             })
             .catch((error) => {
-                this.message = "something went wrong";
+                this.message = response.message;
                 this.error = error;
             });
         this.handleCancel();

@@ -212,6 +212,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Service_Request__c.AG_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>AG_Service__c.AG_Description__c</field>
         <readable>false</readable>
@@ -1098,6 +1103,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewUserPII</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

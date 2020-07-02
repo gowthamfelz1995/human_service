@@ -1,0 +1,30 @@
+<aura:component controller="AG_Human_Service_CL"
+    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+    access="global">
+
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="showPath" type="boolean" default="true" />
+    <aura:attribute name="serviceRequest" type="AG_Service_Request__c"
+        default="{ 'sobjectType' : 'AG_Service_Request__c' }" />
+
+    <aura:attribute name="pathValue" type="String" />
+
+    <force:recordData recordId="{!v.recordId}" layoutType="FULL" recordUpdated="{!c.doInit}" />
+
+    <aura:If isTrue="{!v.showPath}">
+        <lightning:card title="" class="customCard">
+            <lightning:layout multipleRows="true">
+                <lightning:layoutItem size="12" padding="around-small">
+                    <lightning:progressIndicator currentStep="{!v.pathValue}" type="path" variant="base">
+                        <lightning:progressStep label="Started" value="started" />
+                        <lightning:progressStep label="In Assessment" value="assessment" />
+                        <lightning:progressStep label="In Service" value="service" />
+                        <lightning:progressStep label="Discharged" value="discharged" />
+                        <lightning:progressStep label="All Done" value="AllDone" class="slds-hide" />
+                    </lightning:progressIndicator>
+                </lightning:layoutItem>
+            </lightning:layout>
+        </lightning:card>
+    </aura:If>
+
+</aura:component>
