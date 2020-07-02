@@ -242,6 +242,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Template_Questionnaires__c.AG_Assessment_Question__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Template_Questionnaires__c.AG_Assessment_Template__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AG_Lead__c</field>
         <readable>false</readable>
@@ -260,6 +270,12 @@
         <layout>AG_Activity__c-Activity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Assessment_Questions__c-Assessment Question Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Assessment_Template__c-Assessment Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Assessment__c-Assessment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -275,12 +291,14 @@
         <layout>AG_Service__c-Service Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Template_Questionnaires__c-Template Questionnaire Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead %28Sales%29 Layout</layout>
     </layoutAssignments>
-   
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>false</enabled>
@@ -371,6 +389,10 @@
     </pageAccesses>
     <tabVisibilities>
         <tab>AG_Activity__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Assessment_Template__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -243,6 +243,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Template_Questionnaires__c.AG_Assessment_Question__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Template_Questionnaires__c.AG_Assessment_Template__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AG_Lead__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -260,6 +270,12 @@
         <layout>AG_Activity__c-Activity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Assessment_Questions__c-Assessment Question Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Assessment_Template__c-Assessment Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Assessment__c-Assessment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -275,6 +291,9 @@
         <layout>AG_Service__c-Service Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Template_Questionnaires__c-Template Questionnaire Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -287,6 +306,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AG_Activity__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Assessment_Questions__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Assessment_Template__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -332,6 +369,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AG_Service__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Template_Questionnaires__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
@@ -424,6 +470,10 @@
     </pageAccesses>
     <tabVisibilities>
         <tab>AG_Activity__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Assessment_Template__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
