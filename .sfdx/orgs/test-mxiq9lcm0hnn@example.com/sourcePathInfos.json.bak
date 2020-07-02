@@ -1974,7 +1974,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593617127665,
+            "modifiedTime": 1593671486387,
             "changeTime": 1593617127665,
             "contentHash": "5d4ca2759673b0c07964478f308a7dddc51639fc",
             "isMetadataFile": false,
@@ -2261,15 +2261,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
             "isDirectory": false,
+            "size": 1819,
+            "modifiedTime": 1593670555857,
+            "changeTime": 1593670555857,
+            "contentHash": "a92778b2aaa0a628fa401cd8bf298deba8f8f699",
             "isMetadataFile": false,
-            "size": 2333,
-            "modifiedTime": 1593670402615,
-            "changeTime": 1593670402615,
-            "isWorkspace": false,
-            "contentHash": "93bf83ed3b2f2bddaacf5ba7a7ea6bd7bd847550"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -5280,14 +5280,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\adults_assessment.flow-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\adults_assessment.flow-meta.xml",
             "isDirectory": false,
-            "size": 7188,
-            "modifiedTime": 1593584959730,
-            "changeTime": 1593584959730,
-            "contentHash": "3661be715d765fbfc74d72d8933627d46a192a6a",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 7002,
+            "modifiedTime": 1593672821529,
+            "changeTime": 1593672821529,
+            "contentHash": "77044c7ea8c64dde1dd07208d1c7e71a4ab120e0"
         }
     ],
     [

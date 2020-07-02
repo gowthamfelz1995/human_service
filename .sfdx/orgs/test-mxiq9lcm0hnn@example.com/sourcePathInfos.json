@@ -35,7 +35,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593615197924,
+            "modifiedTime": 1593672821525,
             "changeTime": 1593615197924,
             "contentHash": "148c39908ef140b7cf266dfc3e8a788082a59b65",
             "isMetadataFile": false,
@@ -1974,7 +1974,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593617127665,
+            "modifiedTime": 1593671486387,
             "changeTime": 1593617127665,
             "contentHash": "5d4ca2759673b0c07964478f308a7dddc51639fc",
             "isMetadataFile": false,
@@ -2084,14 +2084,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-DHS_Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\Lead-DHS_Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 4659,
-            "modifiedTime": 1593668410436,
-            "changeTime": 1593668410436,
-            "contentHash": "e811ed2dca1e49ed4f6e35fba7ae9bd4989984f5",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4440,
+            "modifiedTime": 1593671486387,
+            "changeTime": 1593671486387,
+            "contentHash": "f8d3fb67b51e9918029e6c996e1ebe7ed3565b8c"
         }
     ],
     [
@@ -2261,15 +2261,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\intake\\intake.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1819,
             "modifiedTime": 1593670555857,
             "changeTime": 1593670555857,
-            "isWorkspace": false,
-            "contentHash": "a92778b2aaa0a628fa401cd8bf298deba8f8f699"
+            "contentHash": "a92778b2aaa0a628fa401cd8bf298deba8f8f699",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -5176,14 +5176,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1593616342473,
-            "changeTime": 1593589845570,
-            "contentHash": "ff64c728e5e61024ad91a0ef539a1d475d4a253e",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 0,
+            "modifiedTime": 1593672821529,
+            "changeTime": 1593672821529,
+            "contentHash": "69cc8910fc65b4312a62b2f3152930042f42b22f"
         }
     ],
     [
@@ -5282,10 +5282,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\adults_assessment.flow-meta.xml",
             "isDirectory": false,
-            "size": 7188,
-            "modifiedTime": 1593584959730,
-            "changeTime": 1593584959730,
-            "contentHash": "3661be715d765fbfc74d72d8933627d46a192a6a",
+            "size": 7002,
+            "modifiedTime": 1593672821529,
+            "changeTime": 1593672821529,
+            "contentHash": "77044c7ea8c64dde1dd07208d1c7e71a4ab120e0",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -5637,32 +5637,6 @@
             "modifiedTime": 1593584959849,
             "changeTime": 1593584959849,
             "contentHash": "24e723881e4ff3abe6d6e0273765834d197f2b7e",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
-        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\customer_satisfaction.flow-meta.xml",
-        {
-            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\customer_satisfaction.flow-meta.xml",
-            "isDirectory": false,
-            "size": 6321,
-            "modifiedTime": 1593616342448,
-            "changeTime": 1593616342448,
-            "contentHash": "7ed50ebd461cb5371062ed55ad250a5ab3934b9e",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
-        "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\net_promoter_score.flow-meta.xml",
-        {
-            "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flows\\net_promoter_score.flow-meta.xml",
-            "isDirectory": false,
-            "size": 5373,
-            "modifiedTime": 1593616342476,
-            "changeTime": 1593616342476,
-            "contentHash": "08f2f5dae78fdaa4e567485c4854b0a88c74dd30",
             "isMetadataFile": true,
             "state": "u"
         }
