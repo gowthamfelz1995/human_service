@@ -176,7 +176,7 @@ public with sharing class AG_Human_Service_CL {
 
     @AuraEnabled(cacheable=true)
     public static List<AG_Template__c>  getAssessmentTemplatesList() {
-       List<AG_Template__c> assessmentTemplateList = [SELECT Id, Name, FROM AG_Template__c  WHERE AG_Template_Type__c =: 'Assessment' LIMIT 10 ];
+       List<AG_Template__c> assessmentTemplateList = [SELECT Id, Name FROM AG_Template__c  WHERE AG_Template_Type__c =: 'Assessment' LIMIT 10 ];
        return '{"success": true, "data" : '+JSON.serialize(assessmentTemplateList)+'}';
     }
 
