@@ -19,10 +19,19 @@ export default class WaitList extends NavigationMixin(LightningElement) {
 
     @api status = 'Waitlisted';
 
+    @api isWaitListed = false;
+
+    @api comments;
+
     connectedCallback() {
+        this.isWaitListed = true;
+    }
+
+    saveComments() {
         waitListLead({
                 recordId: this.recordId,
-                status: this.status
+                status: this.status,
+                comments: this.comments
             })
             .then((result) => {
                 const response = JSON.parse(response);
