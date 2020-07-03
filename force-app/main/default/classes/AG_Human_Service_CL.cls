@@ -214,6 +214,9 @@ public with sharing class AG_Human_Service_CL {
         insert newAssessmentValueList;
         newAssessment.AG_Total_Score__c =  totalScore;
         update newAssessment;
+        AG_Service_Request__c serviceRequest = [SELECT Id,AG_Status__c FROM AG_Service_Request__c WHERE Id = : wrapperList.serviceRequestId];
+        serviceRequest.AG_Status__c = 'In Assessment';
+        update serviceRequest;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
         
     }
