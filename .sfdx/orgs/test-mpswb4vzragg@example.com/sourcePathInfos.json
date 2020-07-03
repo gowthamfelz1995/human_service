@@ -1295,7 +1295,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769193629,
+            "modifiedTime": 1593774406887,
             "changeTime": 1593747938742,
             "contentHash": "0fc846bbcef8814f205717adc0b2fc3f9a87d115",
             "isMetadataFile": false,
@@ -2209,7 +2209,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769192870,
+            "modifiedTime": 1593774406609,
             "changeTime": 1593769192870,
             "contentHash": "91f6851b83e79af7cbe61edc5946b238bf38b2a6",
             "isMetadataFile": false,
@@ -2328,7 +2328,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769192943,
+            "modifiedTime": 1593774406626,
             "changeTime": 1593769192943,
             "contentHash": "1ad7ace70d5b9b612e19b65b35e7f148f25dff41",
             "isMetadataFile": false,
@@ -2457,30 +2457,27 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Service_Request__c-Service Request Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Service_Request__c-Service Request Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 5218,
-            "modifiedTime": 1593769192944,
-            "changeTime": 1593769192944,
-            "contentHash": "eec1ee68a0f890d399548f00b927f79b9e106798",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false
+            "size": 5081,
+            "modifiedTime": 1593774510830,
+            "changeTime": 1593774510830,
+            "contentHash": "8c7b544afc7ec52e689c0cea59f50628c763f9c1"
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Service__c-Service Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Service__c-Service Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 3973,
-            "modifiedTime": 1593615198080,
-            "changeTime": 1593615198080,
-            "contentHash": "c733b6becc9173036d7235691f3774be76061891",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 3691,
+            "modifiedTime": 1593774510763,
+            "changeTime": 1593774510763,
+            "contentHash": "54d12e684beb8a1ab20157b3dc8fce012073b110"
         }
     ],
     [
@@ -5648,7 +5645,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593746833989,
+            "modifiedTime": 1593774406699,
             "changeTime": 1593746833989,
             "contentHash": "9ad03e08aea8d6446a07c1fb0e208243e7300437",
             "isMetadataFile": false,
@@ -5660,16 +5657,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
-            "size": 2817,
-            "modifiedTime": 1593746833989,
-            "changeTime": 1593746833989,
-            "contentHash": "d5203b3d21044ce4b1df2d31c9ec7511abc90d1e",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 3425,
+            "modifiedTime": 1593774510980,
+            "changeTime": 1593774510980,
+            "contentHash": "88dd5a5cbe91ab5850cda84afe70223d50f108a8"
         }
     ],
     [
@@ -5678,7 +5673,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769193257,
+            "modifiedTime": 1593774406729,
             "changeTime": 1593746834003,
             "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
@@ -5690,15 +5685,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 41031,
-            "modifiedTime": 1593769193138,
-            "changeTime": 1593769193138,
-            "contentHash": "7eda264d2abd8d72a5fbb5ee936135c27cf25ef8",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false
+            "size": 39779,
+            "modifiedTime": 1593774510970,
+            "changeTime": 1593774510970,
+            "contentHash": "ab3143ce603c66c39c25085adbd76cc9f6842913"
         }
     ],
     [
@@ -6194,16 +6188,14 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Service_Request__c\\fields\\AG_Status__c.field-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Service_Request__c\\fields\\AG_Status__c.field-meta.xml",
             "isDirectory": false,
-            "size": 1202,
-            "modifiedTime": 1593688605827,
-            "changeTime": 1593688605827,
-            "contentHash": "5674a903a3fef1bdaf186035a4dc5d7ba3c24c27",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 1202,
+            "modifiedTime": 1593774510727,
+            "changeTime": 1593774510727,
+            "contentHash": "2cacd3810a100754474f7d4598aacff759bfef21"
         }
     ],
     [
@@ -6359,15 +6351,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\chevronPath\\chevronPathHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\aura\\chevronPath\\chevronPathHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1525,
             "modifiedTime": 1593774232544,
             "changeTime": 1593774232544,
-            "isWorkspace": false,
-            "contentHash": "c0e07db8c87072fdc126a51628df746ade2cd8f7"
+            "contentHash": "c0e07db8c87072fdc126a51628df746ade2cd8f7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -6974,7 +6966,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593746833926,
+            "modifiedTime": 1593774406629,
             "changeTime": 1593746833926,
             "contentHash": "c28bb3bfbe27a94faee2c2b395822ff7ac1f984f",
             "isMetadataFile": false,
@@ -6989,7 +6981,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769193506,
+            "modifiedTime": 1593774406670,
             "changeTime": 1593747938750,
             "contentHash": "4e4854a3a00b1395e1dd71b4a77c012cb843351d",
             "isMetadataFile": false,
@@ -7237,7 +7229,7 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\objListItem",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593769192978,
+            "modifiedTime": 1593774406672,
             "changeTime": 1593769192978,
             "contentHash": "6d7a4a56ff28ff95e4a4af2be69beef78f2b174c",
             "isMetadataFile": false,

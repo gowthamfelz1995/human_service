@@ -22,9 +22,9 @@
                 <label>In Assessment</label>
             </value>
             <value>
-                <fullName>In service</fullName>
+                <fullName>In Service</fullName>
                 <default>false</default>
-                <label>In service</label>
+                <label>In Service</label>
             </value>
             <value>
                 <fullName>Discharged</fullName>
