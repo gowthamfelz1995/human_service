@@ -75,7 +75,7 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <relatedList>AG_Template_Questionnaires__c.AG_Template__c</relatedList>
+        <relatedList>AG_Questionnaire_Template__c.AG_Template__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>

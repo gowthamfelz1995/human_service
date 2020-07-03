@@ -153,14 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Template Questionnaire</label>
+    <label>Questionnaire Template</label>
     <nameField>
         <displayFormat>TQ-{000000}</displayFormat>
         <label>Template  Name</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Template Questionnaires</pluralLabel>
+    <pluralLabel>Questionnaire Templates</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

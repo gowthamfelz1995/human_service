@@ -16,11 +16,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Assessment__c.AG_Assessment_Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>AG_Assessment__c.AG_Drug_Using_Duration__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -139,11 +134,7 @@
         <field>AG_Service__c.AG_To_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Template_Questionnaires__c.AG_Template__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
+    
     <hasActivationRequired>false</hasActivationRequired>
     <label>DHS Permission Set</label>
     <objectPermissions>

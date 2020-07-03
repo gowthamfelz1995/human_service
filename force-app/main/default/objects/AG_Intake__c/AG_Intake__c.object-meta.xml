@@ -167,12 +167,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Intakes</pluralLabel>
-    <profileSearchLayouts>
-        <fields>NAME</fields>
-        <fields>00NN0000009OqOz</fields>
-        <profileName>System Administrator</profileName>
-    </profileSearchLayouts>
-    <searchLayouts>
+   <searchLayouts>
         <excludedStandardButtons>New</excludedStandardButtons>
         <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
         <excludedStandardButtons>PrintableListView</excludedStandardButtons>

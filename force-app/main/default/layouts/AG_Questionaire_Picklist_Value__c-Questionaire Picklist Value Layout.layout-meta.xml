@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>AG_Assessment_Question__c</field>
+                <field>AG_Question__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
