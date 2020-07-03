@@ -183,8 +183,15 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
         assessmentWrapper wrapperList = (assessmentWrapper) JSON.deserialize(assessmentObj,assessmentWrapper.class);
-        system.debug('assessmentWrapper-->'+wrapperList);
-        return 'Success';
+        AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Assessment_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
+        insert newAssessment;
+        List<AG_Assessment_Value__c> newAssessmentValueList = new List<AG_Assessment_Value__c>();
+        for(assessmentAnswerWrapper assessmentAnwser : wrapperList.assessmentAnswerList){
+            AG_Assessment_Value__c  newAssessmentValue = new AG_Assessment_Value__c(AG_Assessment__c=newAssessment.Id,Name=assessmentAnwser.question,AG_Answer__c=assessmentAnwser.answer);
+            newAssessmentValueList.add(newAssessmentValue);
+        }
+        insert newAssessmentValueList;
+        return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
         
     }
     public class assessmentWrapper{

@@ -3,12 +3,22 @@ import { CurrentPageReference } from "lightning/navigation";
 import { registerListener, unregisterAllListeners, fireEvent } from "c/pubsub";
 import getAssessmentQuestions from "@salesforce/apex/AG_Human_Service_CL.getAssessmentQuestions";
 import saveAssessmentList from "@salesforce/apex/AG_Human_Service_CL.saveAssessmentList";
+import {
+  ShowToastEvent
+} from 'lightning/platformShowToastEvent';
 
-export default class AssessmentTemplate extends LightningElement {
+import {
+  NavigationMixin
+} from 'lightning/navigation';
+import SERVICE_REQUEST from '@salesforce/schema/AG_Service_Request__c';
+
+
+export default class AssessmentTemplate extends NavigationMixin(LightningElement) {
   assessmentId = "";
   serviceRequestId = "";
   showSaveBtn = false ;
   @track questionList = [];
+  serviceRequestObj = SERVICE_REQUEST ;
 
   @wire(CurrentPageReference) pageRef;
 
@@ -97,7 +107,21 @@ export default class AssessmentTemplate extends LightningElement {
     })
       .then((result) => {
         var res = JSON.parse(result);
+        const successEvent = new ShowToastEvent({
+          title: "Success",
+          message: "Assessment process completed successfully",
+          variant: "success"
+      });
+      this.dispatchEvent(successEvent);
         console.log("res==>"+JSON.stringify(res));
+        this[NavigationMixin.Navigate]({
+          type: 'standard__recordPage',
+          attributes: {
+              recordId: res.data['AG_Service_Request__c'],
+              objectApiName: this.serviceRequestObj,
+              actionName: 'view'
+          }
+      });
         
        })
       .catch((error) => {
