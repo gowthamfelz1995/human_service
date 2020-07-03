@@ -29,15 +29,9 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
 
     @api services;
 
-    @api serviceLineItemId;
+    @api filteredServices = [];
 
-    @api checkedValue;
-
-    @api fromDate;
-
-    @api toDate;
-
-    @api filteredServices;
+    @api serviceObjectList = [];
 
     connectedCallback() {
         getServiceRequest({
@@ -47,7 +41,16 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
                 const response = JSON.parse(result);
                 this.intake = response.serviceRequest.AG_Intake__c;
                 this.serviceType = response.serviceRequest.AG_Service_Type__c;
-                this.services = response.serviceWrapperList;
+                this.services = response.services;
+                this.services.forEach((service) => {
+                    var serviceObject = {
+                        Id: service.Id,
+                        name: service.AG_Service_Name__c,
+                        fromDate: '',
+                        toDate: '',
+                    }
+                    this.serviceObjectList.push(serviceObject);
+                })
             })
             .catch((error) => {
                 this.error = response.message;
@@ -55,44 +58,46 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
     }
 
     getFromDate(event) {
-        this.fromDate = event.target.value;
+        this.serviceObjectList[event.target.dataset.name]['fromDate'] = event.detail.value;
     }
 
     getToDate(event) {
-        this.toDate = event.target.value;
+        this.serviceObjectList[event.target.dataset.name]['toDate'] = event.detail.value;
     }
 
     handleChange(event) {
-        this.checkedValue = event.target.checked;
-        console.log('checkedValue--->' + this.checkedValue);
-    }
-
-    handleClick(event){
-        console.log('ENTERED ON CLICK');
-        console.log('checkedValue--->' +event.target.checked);
+        var selectedService = event.target.dataset.name;
+        this.filteredServices.push(this.serviceObjectList[selectedService]);
     }
 
     handleSave(event) {
-        saveServiceLineItem({
-                intakeId: this.intake,
-                services: this.filteredServices,
-                fromDate: this.fromDate,
-                toDate: this.toDate
-            })
-            .then((result) => {
-                const response = JSON.parse(result);
-                this.serviceLineItemId = response.data.Id;
-                const successEvent = new ShowToastEvent({
-                    title: "Success",
-                    message: response.message,
-                    variant: "success"
-                });
-                this.dispatchEvent(successEvent);
-            })
-            .catch((error) => {
-                this.error = response.message;
-            })
-        this.returnToServiceLineItem();
+        if (this.filteredServices == null || this.filteredServices == undefined) {
+            const errorEvent = new ShowToastEvent({
+                title: "Error",
+                message: "Please choose a service to proceed",
+                variant: "error"
+            });
+            this.dispatchEvent(errorEvent);
+
+        } else {
+            saveServiceLineItem({
+                    intakeId: this.intake,
+                    services: this.filteredServices
+                })
+                .then((result) => {
+                    const response = JSON.parse(result);
+                    const successEvent = new ShowToastEvent({
+                        title: "Success",
+                        message: response.message,
+                        variant: "success"
+                    });
+                    this.dispatchEvent(successEvent);
+                })
+                .catch((error) => {
+                    this.error = response.message;
+                })
+            this.returnToServiceLineItem();
+        }
     }
 
     handleCancel() {
@@ -108,11 +113,10 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
 
     returnToServiceLineItem() {
         this[NavigationMixin.Navigate]({
-            type: 'standard__recordPage',
+            type: 'standard__objectPage',
             attributes: {
-                recordId: this.serviceLineItemId,
                 objectApiName: 'AG_Service_Line_Item__c',
-                actionName: 'view'
+                actionName: 'home'
             }
         });
     }

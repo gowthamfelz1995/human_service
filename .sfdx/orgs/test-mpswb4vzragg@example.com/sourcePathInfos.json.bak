@@ -2,29 +2,31 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833889,
             "changeTime": 1593746833889,
+            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "51d86f3b64a3d9a0048d192f02147b0e9e9594e4"
+            "isArtifactRoot": true
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833891,
             "changeTime": 1593746833891,
+            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "ae41ed56706e4439a34cda97ac997d7988935c2f"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -124,11 +126,12 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593695243203,
-            "changeTime": 1593688288975,
+            "changeTime": 1593695243203,
             "contentHash": "f7e81bdccfaa82965ca734237f92fa192ec432df",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -1293,7 +1296,7 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593747938742,
-            "changeTime": 1593584959707,
+            "changeTime": 1593747938742,
             "contentHash": "0fc846bbcef8814f205717adc0b2fc3f9a87d115",
             "isMetadataFile": false,
             "state": "u",
@@ -1304,15 +1307,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\classes\\AG_Human_Service_CL.cls",
             "isDirectory": false,
+            "size": 8130,
+            "modifiedTime": 1593768176987,
+            "changeTime": 1593768176987,
+            "contentHash": "451ea2947b0aa83c5dc3f38a63cccd798ebb6bd4",
             "isMetadataFile": false,
-            "size": 7224,
-            "modifiedTime": 1593747974295,
-            "changeTime": 1593747974295,
-            "isWorkspace": false,
-            "contentHash": "5e576d6415cf1a1332cb397b6b0d2441e5a822ae"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2203,15 +2206,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833905,
             "changeTime": 1593746833905,
+            "contentHash": "be081d52ff41cd4771d1e550f5c35fef00f2a1c7",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "be081d52ff41cd4771d1e550f5c35fef00f2a1c7"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2224,7 +2228,9 @@
             "changeTime": 1593688606026,
             "contentHash": "98b4a39954666449cbebf5516833fcc5b792fc56",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2267,7 +2273,9 @@
             "changeTime": 1593688606010,
             "contentHash": "f8af6d18893dea79c3ea59607be756615d74c497",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2322,11 +2330,12 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593746833908,
-            "changeTime": 1593688289652,
+            "changeTime": 1593746833908,
             "contentHash": "2a945102880a3968b68df77302169d8b70bcb8e4",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2339,7 +2348,9 @@
             "changeTime": 1593688605963,
             "contentHash": "a583d98c4dd62d735c9f3d34e5e63dcc059e2afa",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2352,7 +2363,9 @@
             "changeTime": 1593688605979,
             "contentHash": "510b7f798f600a5a73273281b517fe7400309a3e",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2365,7 +2378,9 @@
             "changeTime": 1593688605894,
             "contentHash": "8bac0e7c99b5735f55ee065bbb3d5875e358f762",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2378,7 +2393,9 @@
             "changeTime": 1593688605924,
             "contentHash": "5846fc0bd1b7bbe944b8fb5bfca23d7305d96061",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2399,15 +2416,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Assessment__c-Assessment Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\layouts\\AG_Assessment__c-Assessment Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 3625,
             "modifiedTime": 1593746833908,
             "changeTime": 1593746833908,
+            "contentHash": "4d43e5cdd0ee001749f9aa54fe2bc13a7e7133fe",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "4d43e5cdd0ee001749f9aa54fe2bc13a7e7133fe"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2420,7 +2438,9 @@
             "changeTime": 1593688605994,
             "contentHash": "0e1136b50e0885ef8921daf9ccd6ad1249f5cd01",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2449,7 +2469,8 @@
             "contentHash": "f36f670a5af87bb6f099287939191cc617fba925",
             "isMetadataFile": true,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2477,7 +2498,9 @@
             "changeTime": 1593688605855,
             "contentHash": "bad3012556aebedf3adf63200cd60f23fa44577c",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2543,15 +2566,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833936,
             "changeTime": 1593746833936,
+            "contentHash": "60f07849f548f880cb14341dda246de409a51042",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "60f07849f548f880cb14341dda246de409a51042"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2595,7 +2619,8 @@
             "contentHash": "5e56b035c922f8ca1496e6cb4fbc26838fc7e058",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2691,15 +2716,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.html",
             "isDirectory": false,
+            "size": 3828,
+            "modifiedTime": 1593768482856,
+            "changeTime": 1593768482856,
+            "contentHash": "10c52f14f8135d2cc88fc7bb020f3474141858f4",
             "isMetadataFile": false,
-            "size": 3726,
-            "modifiedTime": 1593747377910,
-            "changeTime": 1593747377910,
-            "isWorkspace": false,
-            "contentHash": "e6853ad0e2a751124f922f1365e41dbb34781085"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -2709,11 +2734,11 @@
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 3125,
-            "modifiedTime": 1593747483246,
-            "changeTime": 1593747483246,
+            "size": 3737,
+            "modifiedTime": 1593768916817,
+            "changeTime": 1593768916817,
             "isWorkspace": false,
-            "contentHash": "d1b5cb142ceb7d7633cfa82a6e23e410732ab38f"
+            "contentHash": "bf4f0ae27b482b86e7af82764418864b7ef16460"
         }
     ],
     [
@@ -2757,7 +2782,8 @@
             "contentHash": "ce920d6ee7ab9e4bdc2beb1c548e298740113689",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2771,7 +2797,8 @@
             "contentHash": "a5baf6f3b7bc5db980ce1bf6b5e176a906fe815f",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2875,7 +2902,8 @@
             "contentHash": "01b1860aa9611953a3da1474b4377b15cff37d22",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2889,7 +2917,8 @@
             "contentHash": "b4cc8462c8669d15ea0ecdefe091042fa644f06e",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -2948,7 +2977,8 @@
             "contentHash": "d60fb24e4632739d1cdeebd7f2426f85de099275",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -3006,7 +3036,9 @@
             "changeTime": 1593688605804,
             "contentHash": "f8b77643e5b78b0199b854d92555652c5feb8f61",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -3019,7 +3051,9 @@
             "changeTime": 1593688605804,
             "contentHash": "3b1d258709e815299f52b8c8def8d8a395bd92da",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -3640,15 +3674,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833986,
             "changeTime": 1593746833986,
+            "contentHash": "44727e5969d5af725dcfcf6961e47da74e3b43ee",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "44727e5969d5af725dcfcf6961e47da74e3b43ee"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -4172,7 +4207,8 @@
             "contentHash": "954ad931aa2e7a500b25409ec2b6900dfa750363",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -4186,7 +4222,8 @@
             "contentHash": "cb6227f55d2f64c478c2c181cf2b85f9f7cdaaf0",
             "isMetadataFile": true,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -4200,7 +4237,8 @@
             "contentHash": "3f41034b45d8fc1f481f2c3df0f48349f8edbfba",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -5620,7 +5658,7 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593746833989,
-            "changeTime": 1593615012923,
+            "changeTime": 1593746833989,
             "contentHash": "9ad03e08aea8d6446a07c1fb0e208243e7300437",
             "isMetadataFile": false,
             "state": "u",
@@ -5631,15 +5669,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\permissionsets\\AG_DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2817,
             "modifiedTime": 1593746833989,
             "changeTime": 1593746833989,
+            "contentHash": "d5203b3d21044ce4b1df2d31c9ec7511abc90d1e",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "d5203b3d21044ce4b1df2d31c9ec7511abc90d1e"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -5649,7 +5688,7 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593746834003,
-            "changeTime": 1593676184617,
+            "changeTime": 1593746834003,
             "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
             "isMetadataFile": false,
             "state": "u",
@@ -5660,70 +5699,76 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 39823,
             "modifiedTime": 1593746833992,
             "changeTime": 1593746833992,
+            "contentHash": "61afc62e1a483ceb1ca42c5a9540c72766ffba91",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "61afc62e1a483ceb1ca42c5a9540c72766ffba91"
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 20791,
             "modifiedTime": 1593746833995,
             "changeTime": 1593746833995,
+            "contentHash": "11d9d8fbdc04a53114ec721bab2c31035d4bfd1c",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "11d9d8fbdc04a53114ec721bab2c31035d4bfd1c"
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 20783,
             "modifiedTime": 1593746833997,
             "changeTime": 1593746833997,
+            "contentHash": "190bb957107563959c5c113a8f47d53774a1e22a",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "190bb957107563959c5c113a8f47d53774a1e22a"
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 21137,
             "modifiedTime": 1593746834007,
             "changeTime": 1593746834007,
+            "contentHash": "786d4d058d5e6545e07776c3ffe4d4ecf8adbcc6",
+            "isMetadataFile": true,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "786d4d058d5e6545e07776c3ffe4d4ecf8adbcc6"
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746834009,
             "changeTime": 1593746834009,
-            "contentHash": "264cd364f62d83843fff79ed989196783c9e528e"
+            "contentHash": "264cd364f62d83843fff79ed989196783c9e528e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -5984,15 +6029,16 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746834011,
             "changeTime": 1593746834011,
+            "contentHash": "ccba110d0dce52c83b244cd6fdebc4e3a96c8ccb",
+            "isMetadataFile": false,
+            "state": "u",
             "isWorkspace": false,
-            "contentHash": "ccba110d0dce52c83b244cd6fdebc4e3a96c8ccb"
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6103,15 +6149,15 @@
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833860,
             "changeTime": 1593746833860,
-            "isWorkspace": true,
-            "contentHash": "ae5b291239a928df9e148133a27ba18cc27448d5"
+            "contentHash": "ae5b291239a928df9e148133a27ba18cc27448d5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true
         }
     ],
     [
@@ -6124,7 +6170,9 @@
             "changeTime": 1593680705548,
             "contentHash": "5413c76ba3a6ac03346752bc312186c6bb6eb710",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6137,7 +6185,9 @@
             "changeTime": 1593688606041,
             "contentHash": "39a7ea1a4319b7b06a02606a26477ae5edc6b394",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6150,7 +6200,9 @@
             "changeTime": 1593680705549,
             "contentHash": "3e1762cf516188c284094737b2ff5c7bb87b8d64",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6163,7 +6215,9 @@
             "changeTime": 1593688605827,
             "contentHash": "5674a903a3fef1bdaf186035a4dc5d7ba3c24c27",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6176,7 +6230,9 @@
             "changeTime": 1593680705631,
             "contentHash": "44f1168b56c9df2fe602a749edee27b072874125",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6189,7 +6245,9 @@
             "changeTime": 1593680705636,
             "contentHash": "c18ecd61e89aa9cadca03d813ec7c7361b4075c0",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6202,7 +6260,9 @@
             "changeTime": 1593683141677,
             "contentHash": "bc275d9d3b8e730505534b0770f50ecc53de7608",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6215,7 +6275,9 @@
             "changeTime": 1593683141664,
             "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6228,7 +6290,9 @@
             "changeTime": 1593683570747,
             "contentHash": "361771267c47f6069071ea99b196bcdee16f581b",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6241,7 +6305,9 @@
             "changeTime": 1593683141662,
             "contentHash": "228bed42f73b74ee40f064d170cb86f4a1f64517",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6254,7 +6320,9 @@
             "changeTime": 1593683141669,
             "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6267,7 +6335,9 @@
             "changeTime": 1593683698490,
             "contentHash": "f41dc1028377d1ad5457871af40f3845f753aa9e",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6280,7 +6350,9 @@
             "changeTime": 1593683141673,
             "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6293,7 +6365,9 @@
             "changeTime": 1593683387418,
             "contentHash": "8d45bbb4d62a0b8d166ac308a843a339def02811",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6306,7 +6380,9 @@
             "changeTime": 1593683797197,
             "contentHash": "79508bcf5f6cf4f0e1c22d4f951fc2f368ef23d5",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6319,7 +6395,9 @@
             "changeTime": 1593683141677,
             "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6332,7 +6410,9 @@
             "changeTime": 1593688288993,
             "contentHash": "0607a9a0920725b138741114f6b025f88e5da8c5",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6342,10 +6422,12 @@
             "isDirectory": true,
             "size": 0,
             "modifiedTime": 1593746833913,
-            "changeTime": 1593688289050,
+            "changeTime": 1593746833913,
             "contentHash": "a1390f0be32876730113f3a014891f5f95105808",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6358,7 +6440,9 @@
             "changeTime": 1593688289060,
             "contentHash": "3ddcc0f04065b16b67a855e1970878de730b5b3e",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6371,7 +6455,9 @@
             "changeTime": 1593688289058,
             "contentHash": "fd5d64ff3e6f1d0d09ca5f9085b6fe6f8e19a0c1",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6384,7 +6470,9 @@
             "changeTime": 1593688289063,
             "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6397,7 +6485,9 @@
             "changeTime": 1593688289100,
             "contentHash": "1bfa38a0c94eb711c9169cb883db50db97b7101e",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6410,7 +6500,9 @@
             "changeTime": 1593688289101,
             "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6423,7 +6515,9 @@
             "changeTime": 1593688289121,
             "contentHash": "9415433112958222cec5aa01dbafc766e1ea50dd",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6436,7 +6530,9 @@
             "changeTime": 1593688289123,
             "contentHash": "0eba1eba0349fc9672107a60a9f029ad886b800e",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6449,7 +6545,9 @@
             "changeTime": 1593688289143,
             "contentHash": "732810df51bbdb11633362e459c5f99bf91ba475",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6462,7 +6560,9 @@
             "changeTime": 1593688289162,
             "contentHash": "a97425fc91b46c16bc0d86dc5780c204e25ba094",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6475,7 +6575,9 @@
             "changeTime": 1593688288977,
             "contentHash": "026393591bb8e666c6760c9b980d36434a2aae86",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6488,7 +6590,9 @@
             "changeTime": 1593688288991,
             "contentHash": "33af41bd33b1704a1a395e4f69cbf966ecd59445",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6501,7 +6605,9 @@
             "changeTime": 1593688288992,
             "contentHash": "8074e1558ccb772855eb6d177698eb75bb5b8115",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6514,7 +6620,9 @@
             "changeTime": 1593688288994,
             "contentHash": "f0c7110da2ca40ddbe91482190d3f51a492ee01d",
             "isMetadataFile": false,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6527,7 +6635,9 @@
             "changeTime": 1593688288995,
             "contentHash": "04c84a69d6783cc8d70249fd81e99ea55356e9b2",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6540,7 +6650,9 @@
             "changeTime": 1593688289020,
             "contentHash": "6b338658b4936849a312436eadf8388e1bc0d558",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6553,7 +6665,9 @@
             "changeTime": 1593688289022,
             "contentHash": "37e1283e98631e47319c865eb644252a1591fafa",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6566,33 +6680,39 @@
             "changeTime": 1593688289045,
             "contentHash": "60b162b504249c34f69511e6779f2f621bf8821c",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessment\\assessment.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessment\\assessment.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 947,
             "modifiedTime": 1593746833911,
             "changeTime": 1593746833911,
-            "contentHash": "2c8bd96990dec7b8bfa9c34c9bcb65ce5095c8c0"
+            "contentHash": "2c8bd96990dec7b8bfa9c34c9bcb65ce5095c8c0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessment\\assessment.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessment\\assessment.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1260,
             "modifiedTime": 1593746833913,
             "changeTime": 1593746833913,
-            "contentHash": "f3715a79c79516c4544e5e59342900fe6ae7b5e4"
+            "contentHash": "f3715a79c79516c4544e5e59342900fe6ae7b5e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6605,7 +6725,9 @@
             "changeTime": 1593688289050,
             "contentHash": "4199810ea8043620d43314fc6fbec8bf084699e6",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6618,7 +6740,9 @@
             "changeTime": 1593688289055,
             "contentHash": "afb1f66564711e949476f34e70789f9995aee82e",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6631,7 +6755,9 @@
             "changeTime": 1593688289059,
             "contentHash": "deab390689ea8617cf85208d9508fb66848f7a79",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6644,7 +6770,9 @@
             "changeTime": 1593688289063,
             "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6657,7 +6785,9 @@
             "changeTime": 1593688289099,
             "contentHash": "b96f332fbed86c21dfba4ff5202f48bfca515019",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6670,7 +6800,9 @@
             "changeTime": 1593688289101,
             "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6683,7 +6815,9 @@
             "changeTime": 1593688289120,
             "contentHash": "40f5b198bd2eda342c8b863db0f29d5868acd671",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6696,7 +6830,9 @@
             "changeTime": 1593688289122,
             "contentHash": "aaa8b2d7d2564295f165d6cc79bfe93e640aef96",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6709,7 +6845,9 @@
             "changeTime": 1593688289124,
             "contentHash": "37bf0efcd2c7e0c4511568f47c1ac1d4ef105566",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6722,7 +6860,9 @@
             "changeTime": 1593688289142,
             "contentHash": "9c51999c8908ef8602c121c8fed4d80359e8b364",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6735,7 +6875,9 @@
             "changeTime": 1593688289144,
             "contentHash": "f07dc10d0d532c081e722026360d8f47de766f05",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6748,7 +6890,9 @@
             "changeTime": 1593688289162,
             "contentHash": "ec8342787e6bfb69a3066174b77de794c5dab55b",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6761,7 +6905,9 @@
             "changeTime": 1593688289125,
             "contentHash": "33e98ce3a6f58296a827df5e5b11683d30eb2b41",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6774,7 +6920,9 @@
             "changeTime": 1593688289254,
             "contentHash": "ef194825685e6b5bbd610744c37df4e13503be2c",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6787,7 +6935,9 @@
             "changeTime": 1593688289255,
             "contentHash": "869d1790541daea6800cee12be7c6fadf015b0c0",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6800,7 +6950,9 @@
             "changeTime": 1593688289282,
             "contentHash": "eb469cc22e211515af903b34448246a2b03745a8",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6813,7 +6965,9 @@
             "changeTime": 1593688605804,
             "contentHash": "f375a5bb35adcb600b2fa127f450026bd264683b",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
@@ -6826,215 +6980,248 @@
             "changeTime": 1593688605994,
             "contentHash": "d14962526e72f0ab03cb5316d836e1d0f28301a1",
             "isMetadataFile": true,
-            "state": "u"
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833926,
             "changeTime": 1593746833926,
-            "contentHash": "c28bb3bfbe27a94faee2c2b395822ff7ac1f984f"
+            "contentHash": "c28bb3bfbe27a94faee2c2b395822ff7ac1f984f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593747938750,
             "changeTime": 1593747938750,
-            "contentHash": "4e4854a3a00b1395e1dd71b4a77c012cb843351d"
+            "contentHash": "4e4854a3a00b1395e1dd71b4a77c012cb843351d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593746833977,
             "changeTime": 1593746833977,
-            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972"
+            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Assessment_PubSub.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\flexipages\\Assessment_PubSub.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 863,
             "modifiedTime": 1593746833906,
             "changeTime": 1593746833906,
-            "contentHash": "7d8aa575cba660a60e4566daa85eaeae584c2604"
+            "contentHash": "7d8aa575cba660a60e4566daa85eaeae584c2604",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 483,
             "modifiedTime": 1593746833916,
             "changeTime": 1593746833916,
-            "contentHash": "57dfd51db3bd0bdfcbd39825b9aec7ec1ec208d8"
+            "contentHash": "57dfd51db3bd0bdfcbd39825b9aec7ec1ec208d8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 684,
             "modifiedTime": 1593746833923,
             "changeTime": 1593746833923,
-            "contentHash": "bb31c3f34427b949f7cd46032a1c35c72a1367fd"
+            "contentHash": "bb31c3f34427b949f7cd46032a1c35c72a1367fd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentListItemBubbling\\assessmentListItemBubbling.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 212,
             "modifiedTime": 1593746833926,
             "changeTime": 1593746833926,
-            "contentHash": "4624ac31717d2da8d749902ccd70f9bb3dc82ff6"
+            "contentHash": "4624ac31717d2da8d749902ccd70f9bb3dc82ff6",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.html",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 745,
             "modifiedTime": 1593747938745,
             "changeTime": 1593747938745,
-            "contentHash": "e5a3ea34deba40f08d295c8f62d802670e1fd6e4"
+            "contentHash": "e5a3ea34deba40f08d295c8f62d802670e1fd6e4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.js",
             "isDirectory": false,
+            "size": 2485,
+            "modifiedTime": 1593759779095,
+            "changeTime": 1593759779095,
+            "contentHash": "3b4804f96c03fe925f5c8a2f4e5365ec16bf1157",
             "isMetadataFile": false,
-            "size": 2491,
-            "modifiedTime": 1593747938750,
-            "changeTime": 1593747938750,
-            "contentHash": "c041846a441fc8315acf2385a2ac829fb7ec7a80"
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\assessmentTemplate\\assessmentTemplate.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 381,
             "modifiedTime": 1593746833931,
             "changeTime": 1593746833931,
-            "contentHash": "8d03f270922d08484ceb0178bfd5243e6aea64a0"
+            "contentHash": "8d03f270922d08484ceb0178bfd5243e6aea64a0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3391,
             "modifiedTime": 1593746833962,
             "changeTime": 1593746833962,
-            "contentHash": "9ed6df98041a9a03155575562211282584d92cfa"
+            "contentHash": "9ed6df98041a9a03155575562211282584d92cfa",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\lwc\\pubsub\\pubsub.js-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 215,
             "modifiedTime": 1593746833978,
             "changeTime": 1593746833978,
-            "contentHash": "ef280919141fc0476ccbff6e24a2815e5f27a1d4"
+            "contentHash": "ef280919141fc0476ccbff6e24a2815e5f27a1d4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields\\AG_Answer__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields\\AG_Answer__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 411,
             "modifiedTime": 1593746833980,
             "changeTime": 1593746833980,
-            "contentHash": "8f2f6333141add47af78ace445b5319038d625ec"
+            "contentHash": "8f2f6333141add47af78ace445b5319038d625ec",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields\\AG_Assessment_Question__c.field-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\objects\\AG_Assessment__c\\fields\\AG_Assessment_Question__c.field-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 605,
             "modifiedTime": 1593746833986,
             "changeTime": 1593746833986,
-            "contentHash": "952414a29b516e11f4272a3bc34886129bd05276"
+            "contentHash": "952414a29b516e11f4272a3bc34886129bd05276",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\AG_Service_Request__c.AG_Assessment.quickAction-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\quickActions\\AG_Service_Request__c.AG_Assessment.quickAction-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 363,
             "modifiedTime": 1593746834010,
             "changeTime": 1593746834010,
-            "contentHash": "24e723881e4ff3abe6d6e0273765834d197f2b7e"
+            "contentHash": "24e723881e4ff3abe6d6e0273765834d197f2b7e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ],
     [
         "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs\\Assessment.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Documents\\DHS\\human_service\\force-app\\main\\default\\tabs\\Assessment.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 227,
             "modifiedTime": 1593746834012,
             "changeTime": 1593746834012,
-            "contentHash": "703713f0d14590d90d817c5b1a9a198260cc9c76"
+            "contentHash": "703713f0d14590d90d817c5b1a9a198260cc9c76",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
         }
     ]
 ]
