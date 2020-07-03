@@ -6,21 +6,28 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>assessment</componentName>
+            <componentName>chooseServiceRequest</componentName>
         </componentInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>assessmentTemplate</componentName>
+            <componentName>assessment</componentName>
         </componentInstances>
         <name>region3</name>
         <type>Region</type>
     </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>assessmentTemplate</componentName>
+        </componentInstances>
+        <name>region4</name>
+        <type>Region</type>
+    </flexiPageRegions>
     <masterLabel>Assessment/PubSub</masterLabel>
     <template>
-        <name>flexipage:appHomeTemplateHeaderTwoColumnsLeftSidebar</name>
+        <name>flexipage:appHomeTemplateHeaderThreeColumns</name>
     </template>
     <type>AppPage</type>
 </FlexiPage>
