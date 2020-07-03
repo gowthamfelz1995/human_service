@@ -133,22 +133,13 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string saveServiceLineItem(Id intakeId, List<AG_Service__c> services){
+    public static string saveServiceLineItem(Id intakeId, String services){
         try {
+            System.debug('intakeId---->' +intakeId);
+            System.debug('services---->' +services);
+            ServiceWrapper serviceWrapperList = (ServiceWrapper) JSON.deserialize(services,ServiceWrapper.class);
             List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
 
-            for (AG_Service__c service : services) {
-                System.debug('intakeId--->' +intakeId);
-                System.debug('serviceId--->' +service.Id);
-                System.debug('fromDate--->' +service.AG_From_Date__c);
-                System.debug('toDate--->' +service.AG_To_Date__c);
-                AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
-                serviceLineItem.AG_Intake__c = intakeId;
-                serviceLineItem.AG_Service__c = service.Id;
-                serviceLineItem.AG_From_Date__c = service.AG_From_Date__c;
-                serviceLineItem.AG_To_Date__c = service.AG_To_Date__c;
-                serviceLineItemList.add(serviceLineItem);
-            }
             //insert serviceLineItemList;
             return '{"success": true, "data" : '+JSON.serialize(serviceLineItemList)+', "message": "Service line item created successfully"}';
         }
@@ -166,6 +157,7 @@ public with sharing class AG_Human_Service_CL {
             SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
         ];
     }
+
     @AuraEnabled(cacheable=true)
     public static List<AG_Service_Request__c>  getServiceRequest(String searchKey) {
         String key = '%' + searchKey + '%';
@@ -212,13 +204,18 @@ public with sharing class AG_Human_Service_CL {
         public String question {get;set;}
         public String answer {get;set;}
     }
-    public class ServiceWrapper{
-        public Boolean isSelected;
-        public AG_Service__c service;
 
-        public ServiceWrapper(Boolean isSelected, AG_Service__c service){
-            this.isSelected = isSelected;
-            this.service = service;
+    public class ServiceWrapper{
+        public Id serviceId;
+        public String serviceName;
+        public Date fromDate;
+        public Date toDate;
+
+        public ServiceWrapper(Id serviceId, String serviceName, Date fromDate, Date toDate){
+            this.serviceId = serviceId;
+            this.serviceName = serviceName;
+            this.fromDate = fromDate;
+            this.toDate = toDate;
         }
     }
 }

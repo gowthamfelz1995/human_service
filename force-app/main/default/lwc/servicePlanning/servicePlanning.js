@@ -82,7 +82,7 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
         } else {
             saveServiceLineItem({
                     intakeId: this.intake,
-                    services: this.filteredServices
+                    services: JSON.stringify(this.filteredServices)
                 })
                 .then((result) => {
                     const response = JSON.parse(result);
