@@ -30,7 +30,6 @@ export default class Assessment extends NavigationMixin(LightningElement) {
         this.serviceRequestId = event.detail.id;
         this.returnToServiceRequest(this.serviceRequestId);
         this.dispatchEvent(successEvent);
-        // this.handleCancel(event);
     }
 
     handleCancel(event) {

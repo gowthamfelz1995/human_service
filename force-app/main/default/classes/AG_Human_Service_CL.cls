@@ -100,7 +100,7 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string getServiceRequest(Id recordId){
+    public static string findServiceRequestForPlanning(Id recordId){
         try {
             List<ServiceWrapper> serviceWrapperList = new List<ServiceWrapper>();
 
@@ -136,13 +136,26 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string saveServiceLineItem(Id intakeId, Id serviceId, Date fromDate, Date toDate){
         try {
-            AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
-            serviceLineItem.AG_Intake__c = intakeId;
-            serviceLineItem.AG_Service__c = serviceId;
-            serviceLineItem.AG_From_Date__c = fromDate;
-            serviceLineItem.AG_To_Date__c = toDate;
-            insert serviceLineItem;
-            return '{"success": true, "data" : '+JSON.serialize(serviceLineItem)+', "message": "Service line item created successfully"}';
+            List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
+
+            List<ServiceWrapper> serviceWrapperList = (List<ServiceWrapper>) JSON.deserialize(services, List<ServiceWrapper>.class);
+
+            for (ServiceWrapper serviceWrapper : serviceWrapperList) {
+                AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
+                serviceLineItem.AG_Intake__c = intakeId;
+                serviceLineItem.AG_Service__c = serviceWrapper.Id;
+                serviceLineItem.AG_From_Date__c = serviceWrapper.fromDate;
+                serviceLineItem.AG_To_Date__c = serviceWrapper.toDate;
+                serviceLineItemList.add(serviceLineItem);
+            }
+
+            insert serviceLineItemList;
+
+            AG_Service_Request__c serviceRequest = [SELECT Id, AG_Status__c FROM AG_Service_Request__c WHERE AG_Intake__c =: intakeId];
+            serviceRequest.AG_Status__c = 'In Service';
+            update serviceRequest;
+
+            return '{"success": true, "data" : '+JSON.serialize(serviceLineItemList)+', "message": "Service line item created successfully"}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -185,9 +198,10 @@ public with sharing class AG_Human_Service_CL {
         System.debug('assessmentTempList==>'+wrapperList);
         AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Assessment_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
         insert newAssessment;
+
         List<AG_Assessment_Value__c> newAssessmentValueList = new List<AG_Assessment_Value__c>();
         Integer totalScore = 0 ;
-            
+
         for(assessmentAnswerWrapper assessmentAnwser : wrapperList.assessmentAnswerList){
             Integer scoreValue = 0 ;
             if(assessmentAnwser.answer != ''){
@@ -214,12 +228,16 @@ public with sharing class AG_Human_Service_CL {
         public Integer score {get;set;}
     }
     public class ServiceWrapper{
-        public Boolean isSelected;
-        public AG_Service__c service;
+        public Id Id;
+        public String name;
+        public Date fromDate;
+        public Date toDate;
 
-        public ServiceWrapper(Boolean isSelected, AG_Service__c service){
-            this.isSelected = isSelected;
-            this.service = service;
+        public ServiceWrapper(Id Id, String name, Date fromDate, Date toDate){
+            this.Id = Id;
+            this.name = name;
+            this.fromDate = fromDate;
+            this.toDate = toDate;
         }
     }
 }
