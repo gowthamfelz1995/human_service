@@ -4,8 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Service Provider</label>
-    <referenceTo>Account</referenceTo>
-    <relationshipLabel>Intakes (Service Provider)</relationshipLabel>
+    <referenceTo>User</referenceTo>
     <relationshipName>Intakes1</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

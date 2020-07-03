@@ -4,8 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Intake Coordinator</label>
-    <referenceTo>Account</referenceTo>
-    <relationshipLabel>Intakes</relationshipLabel>
+    <referenceTo>User</referenceTo>
     <relationshipName>Intakes</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>
