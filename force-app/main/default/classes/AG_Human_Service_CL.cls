@@ -102,15 +102,15 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string findServiceRequestForPlanning(Id recordId){
         try {
-            List<ServiceWrapper> serviceWrapperList = new List<ServiceWrapper>();
+            List<AG_Service__c> services = new List<AG_Service__c>();
 
             AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Intake__c, AG_Service_Type__c FROM AG_Service_Request__c WHERE Id =: recordId];
 
             for (AG_Service__c service : [SELECT Id, AG_Service_Name__c, AG_Service_Type__c FROM AG_Service__c WHERE AG_Service_Type__c =: serviceRequest.AG_Service_Type__c]) {
-                serviceWrapperList.add(new ServiceWrapper(false, service));
+                services.add(service);
             }
 
-            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "serviceWrapperList" : '+JSON.serialize(serviceWrapperList)+'}';
+            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "services" : '+JSON.serialize(services)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -134,7 +134,7 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string saveServiceLineItem(Id intakeId, Id serviceId, Date fromDate, Date toDate){
+    public static string saveServiceLineItem(Id intakeId, String services){
         try {
             List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
 
