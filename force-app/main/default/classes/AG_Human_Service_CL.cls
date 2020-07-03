@@ -99,10 +99,17 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string getServiceRequest(Id intakeId){
+    public static string getServiceRequest(Id recordId){
         try {
-            AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Service_Type__c FROM AG_Service_Request__c WHERE AG_Intake__c =: intakeId];
-            return '{"success" : true, "data" : '+JSON.serialize(serviceRequest)+'}';
+            List<ServiceWrapper> serviceWrapperList = new List<ServiceWrapper>();
+
+            AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Intake__c, AG_Service_Type__c FROM AG_Service_Request__c WHERE Id =: recordId];
+
+            for (AG_Service__c service : [SELECT Id, AG_Service_Name__c, AG_Service_Type__c FROM AG_Service__c WHERE AG_Service_Type__c =: serviceRequest.AG_Service_Type__c]) {
+                serviceWrapperList.add(new ServiceWrapper(false, service));
+            }
+
+            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "serviceWrapperList" : '+JSON.serialize(serviceWrapperList)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -188,5 +195,14 @@ public with sharing class AG_Human_Service_CL {
     public class assessmentAnswerWrapper{
         public String question {get;set;}
         public String answer {get;set;}
+    }
+    public class ServiceWrapper{
+        public Boolean isSelected;
+        public AG_Service__c service;
+
+        public ServiceWrapper(Boolean isSelected, AG_Service__c service){
+            this.isSelected = isSelected;
+            this.service = service;
+        }
     }
 }
