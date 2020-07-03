@@ -191,6 +191,17 @@ public with sharing class AG_Human_Service_CL {
         List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
     }   
+    @AuraEnabled(cacheable=true)
+    public static string getServiceQuestions(){
+        AG_Template__c serviceTemplate = [SELECT Id,Name,AG_Template_Type__c FROM AG_Template__c WHERE AG_Template_Type__c =: 'Service' LIMIT 1];
+        List<AG_Template_Questionnaires__c> serviceTempList = [SELECT Id,AG_Assessment_Question__c,AG_Template__c  FROM AG_Template_Questionnaires__c WHERE AG_Template__c  =: serviceTemplate.Id];
+        Set<String> questionIdList = new Set<String>();
+        for (AG_Template_Questionnaires__c assessmentTemp : serviceTempList) {
+            questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
+        }
+        List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
+        return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
+    }   
 
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
