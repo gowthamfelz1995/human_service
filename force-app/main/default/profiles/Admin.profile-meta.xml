@@ -243,6 +243,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Questionnaire_Template__c.AG_Assessment_Question__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Questionnaire_Template__c.AG_Template__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AG_Service_Line_Item__c.AG_From_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -313,16 +323,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Template_Questionnaires__c.AG_Assessment_Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AG_Template_Questionnaires__c.AG_Template__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.AG_Lead__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -365,6 +365,9 @@
         <layout>AG_Questionaire_Picklist_Value__c-Questionaire Picklist Value Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AG_Questionnaire_Template__c-Template Questionnaire Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AG_Service_Line_Item__c-Service Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -372,9 +375,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Service__c-Service Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AG_Template_Questionnaires__c-Template Questionnaire Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Template__c-Assessment Template Layout</layout>
@@ -445,6 +445,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>AG_Questionnaire_Template__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>AG_Service_Line_Item__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -464,15 +473,6 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>AG_Service__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>AG_Template_Questionnaires__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -585,6 +585,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>AG_Questionnaire_Template__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>AG_Service_Line_Item__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -594,10 +598,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Service__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>AG_Template_Questionnaires__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>AG_Template__c</fullName>
+    <fullName>AG_Assessment_Question__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Template</label>
-    <referenceTo>AG_Template__c</referenceTo>
-    <relationshipLabel>Template Questionnaires</relationshipLabel>
+    <label>Assessment Question</label>
+    <referenceTo>AG_Question__c</referenceTo>
     <relationshipName>Template_Questionnaires</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>
