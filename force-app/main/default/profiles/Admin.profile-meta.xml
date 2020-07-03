@@ -148,11 +148,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Assessment__c.AG_Assessment_Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>AG_Assessment__c.AG_Drug_Using_Duration__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -233,17 +228,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Questionaire_Picklist_Value__c.AG_Assessment_Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>AG_Questionaire_Picklist_Value__c.AG_Picklist_Value__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Questionnaire_Template__c.AG_Assessment_Question__c</field>
+        <field>AG_Questionaire_Picklist_Value__c.AG_Question__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Questionnaire_Template__c.AG_Question__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -269,11 +264,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AG_Service_Line_Item__c.AG_To_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AG_Service_Request__c.AG_Assessment_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
