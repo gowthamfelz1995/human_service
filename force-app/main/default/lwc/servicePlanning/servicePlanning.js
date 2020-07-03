@@ -13,7 +13,7 @@ import {
 
 import SERVICE_REQUEST_OBJECT from '@salesforce/schema/AG_Service_Request__c';
 
-import getServiceRequest from '@salesforce/apex/AG_Human_Service_CL.getServiceRequest';
+import findServiceRequestForPlanning from '@salesforce/apex/AG_Human_Service_CL.findServiceRequestForPlanning';
 
 import saveServiceLineItem from '@salesforce/apex/AG_Human_Service_CL.saveServiceLineItem';
 
@@ -34,7 +34,7 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
     @api serviceObjectList = [];
 
     connectedCallback() {
-        getServiceRequest({
+        findServiceRequestForPlanning({
                 recordId: this.recordId
             })
             .then((result) => {

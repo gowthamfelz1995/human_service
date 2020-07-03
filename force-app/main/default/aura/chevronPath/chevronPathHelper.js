@@ -31,15 +31,12 @@
 
         if (status == 'Started') {
             currentStatus = 'started';
-        }
-         else if (status == 'In Assessment') {
+        } else if (status == 'In Assessment') {
             currentStatus = 'assessment';
-        } 
-        else if (status == 'In Service') {
+        } else if (status == 'In Service') {
             currentStatus = 'service';
-        } 
-        else if (status == "Discharged") {
-            currentStatus = "AllDone";
+        } else if (status == 'Discharged') {
+            currentStatus = 'AllDone';
         }
         component.set("v.pathValue", currentStatus);
     }

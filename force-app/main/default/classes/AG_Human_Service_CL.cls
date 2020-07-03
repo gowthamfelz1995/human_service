@@ -99,7 +99,7 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string getServiceRequest(Id recordId){
+    public static string findServiceRequestForPlanning(Id recordId){
         try {
             List<AG_Service__c> services = new List<AG_Service__c>();
 
@@ -135,12 +135,25 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string saveServiceLineItem(Id intakeId, String services){
         try {
-            System.debug('intakeId---->' +intakeId);
-            System.debug('services---->' +services);
-            ServiceWrapper serviceWrapperList = (ServiceWrapper) JSON.deserialize(services,ServiceWrapper.class);
             List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
 
-            //insert serviceLineItemList;
+            List<ServiceWrapper> serviceWrapperList = (List<ServiceWrapper>) JSON.deserialize(services, List<ServiceWrapper>.class);
+
+            for (ServiceWrapper serviceWrapper : serviceWrapperList) {
+                AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
+                serviceLineItem.AG_Intake__c = intakeId;
+                serviceLineItem.AG_Service__c = serviceWrapper.Id;
+                serviceLineItem.AG_From_Date__c = serviceWrapper.fromDate;
+                serviceLineItem.AG_To_Date__c = serviceWrapper.toDate;
+                serviceLineItemList.add(serviceLineItem);
+            }
+
+            insert serviceLineItemList;
+
+            AG_Service_Request__c serviceRequest = [SELECT Id, AG_Status__c FROM AG_Service_Request__c WHERE AG_Intake__c =: intakeId];
+            serviceRequest.AG_Status__c = 'In Service';
+            update serviceRequest;
+
             return '{"success": true, "data" : '+JSON.serialize(serviceLineItemList)+', "message": "Service line item created successfully"}';
         }
         catch(Exception e){
@@ -172,12 +185,10 @@ public with sharing class AG_Human_Service_CL {
         Set<String> questionIdList = new Set<String>();
 
         for (AG_Template_Questionnaires__c assessmentTemp : assessmentTempList) {
-            System.debug('assessmentTempList==>'+assessmentTemp.AG_Assessment_Question__c);
             questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
         }
 
         List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
-        System.debug('assessmentTempList==>'+questionList);
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
     }
 
@@ -206,14 +217,14 @@ public with sharing class AG_Human_Service_CL {
     }
 
     public class ServiceWrapper{
-        public Id serviceId;
-        public String serviceName;
+        public Id Id;
+        public String name;
         public Date fromDate;
         public Date toDate;
 
-        public ServiceWrapper(Id serviceId, String serviceName, Date fromDate, Date toDate){
-            this.serviceId = serviceId;
-            this.serviceName = serviceName;
+        public ServiceWrapper(Id Id, String name, Date fromDate, Date toDate){
+            this.Id = Id;
+            this.name = name;
             this.fromDate = fromDate;
             this.toDate = toDate;
         }
