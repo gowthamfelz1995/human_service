@@ -26,10 +26,11 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string waitListLead( Id recordId, String status){
+    public static string waitListLead(Id recordId, String comment){
         try{
-            Lead lead = [SELECT Id, Name, Status  FROM Lead WHERE Id =: recordId];
-            lead.status = status;
+            Lead lead = [SELECT Id, Name, Status, AG_Comment__c   FROM Lead WHERE Id =: recordId];
+            lead.status = 'Waitlisted';
+            lead.AG_Comment__c  = comment ;
             update lead;
 
             return '{"success" : true, "message" : "Lead waitlisted successfully"}';
@@ -101,15 +102,15 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string getServiceRequest(Id recordId){
         try {
-            List<AG_Service__c> services = new List<AG_Service__c>();
+            List<ServiceWrapper> serviceWrapperList = new List<ServiceWrapper>();
 
             AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Intake__c, AG_Service_Type__c FROM AG_Service_Request__c WHERE Id =: recordId];
 
             for (AG_Service__c service : [SELECT Id, AG_Service_Name__c, AG_Service_Type__c FROM AG_Service__c WHERE AG_Service_Type__c =: serviceRequest.AG_Service_Type__c]) {
-                services.add(service);
+                serviceWrapperList.add(new ServiceWrapper(false, service));
             }
 
-            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "services" : '+JSON.serialize(services)+'}';
+            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "serviceWrapperList" : '+JSON.serialize(serviceWrapperList)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -133,15 +134,15 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string saveServiceLineItem(Id intakeId, String services){
+    public static string saveServiceLineItem(Id intakeId, Id serviceId, Date fromDate, Date toDate){
         try {
-            System.debug('intakeId---->' +intakeId);
-            System.debug('services---->' +services);
-            ServiceWrapper serviceWrapperList = (ServiceWrapper) JSON.deserialize(services,ServiceWrapper.class);
-            List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
-
-            //insert serviceLineItemList;
-            return '{"success": true, "data" : '+JSON.serialize(serviceLineItemList)+', "message": "Service line item created successfully"}';
+            AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
+            serviceLineItem.AG_Intake__c = intakeId;
+            serviceLineItem.AG_Service__c = serviceId;
+            serviceLineItem.AG_From_Date__c = fromDate;
+            serviceLineItem.AG_To_Date__c = toDate;
+            insert serviceLineItem;
+            return '{"success": true, "data" : '+JSON.serialize(serviceLineItem)+', "message": "Service line item created successfully"}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -157,7 +158,6 @@ public with sharing class AG_Human_Service_CL {
             SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
         ];
     }
-
     @AuraEnabled(cacheable=true)
     public static List<AG_Service_Request__c>  getServiceRequest(String searchKey) {
         String key = '%' + searchKey + '%';
@@ -201,7 +201,7 @@ public with sharing class AG_Human_Service_CL {
         newAssessment.AG_Total_Score__c =  totalScore;
         update newAssessment;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
-
+        
     }
     public class assessmentWrapper{
         public String serviceRequestId {get;set;}
@@ -213,18 +213,13 @@ public with sharing class AG_Human_Service_CL {
         public String answer {get;set;}
         public Integer score {get;set;}
     }
-
     public class ServiceWrapper{
-        public Id serviceId;
-        public String serviceName;
-        public Date fromDate;
-        public Date toDate;
+        public Boolean isSelected;
+        public AG_Service__c service;
 
-        public ServiceWrapper(Id serviceId, String serviceName, Date fromDate, Date toDate){
-            this.serviceId = serviceId;
-            this.serviceName = serviceName;
-            this.fromDate = fromDate;
-            this.toDate = toDate;
+        public ServiceWrapper(Boolean isSelected, AG_Service__c service){
+            this.isSelected = isSelected;
+            this.service = service;
         }
     }
 }

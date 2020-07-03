@@ -1,9 +1,22 @@
-<aura:component
-    implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+<aura:component controller="AG_Human_Service_CL" 
+    implements="force:lightningQuickActionWithoutHeader,force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes"
     access="global">
 
     <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="commentValue" type="String"/>
 
     <aura:handler name='init' value='{!this}' action='{!c.doInit}' />
-
+    <div class="modal-header slds-modal__header slds-size_1-of-1">
+        <h4 class="title slds-text-heading--medium" >Comments</h4>
+    </div>
+     <div class="slds-modal__content slds-p-around--medium action">
+                    <lightning:textarea class="input-height" name="comments" label="Enter Comments" value="{!v.commentValue}" />
+     </div> 
+      <div class="modal-footer slds-modal__footer slds-size_1-of-1">
+            <div class="forceChangeRecordTypeFooter">
+               <lightning:button label="Cancel" title="Neutral action" onclick="{! c.closeModal }"/> 
+                <lightning:button label="Save" variant="brand" title="Neutral action" onclick="{! c.handleSave }"/>
+            </div>
+        </div>
+       
 </aura:component>

@@ -30,7 +30,7 @@ export default class Assessment extends NavigationMixin(LightningElement) {
         this.serviceRequestId = event.detail.id;
         this.returnToServiceRequest(this.serviceRequestId);
         this.dispatchEvent(successEvent);
-        this.handleCancel(event);
+        // this.handleCancel(event);
     }
 
     handleCancel(event) {
@@ -48,7 +48,7 @@ export default class Assessment extends NavigationMixin(LightningElement) {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId: serviceRequestId,
+                recordId: this.serviceRequestId,
                 objectApiName: 'AG_Service_Request__c',
                 actionName: 'view'
             }
