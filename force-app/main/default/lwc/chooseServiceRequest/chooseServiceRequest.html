@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Choose Service Request" icon-name="action:update_status">
+        <div class="slds-m-around_medium" onobjectselect={handleServiceRequestSelect}>
+        <div class="slds-m-around_medium">
+            <lightning-input
+                type="search"
+                onchange={handleKeyChange}
+                class="slds-m-bottom_small"
+                label="Search"
+                value={searchKey}
+            ></lightning-input>
+            <template if:true={serviceRequestList.data}>
+                <template for:each={serviceRequestList.data} for:item="serviceRequest">
+                    <c-obj-list-item
+                    key={serviceRequest.Id}
+                    service={serviceRequest}
+                ></c-obj-list-item>
+                </template>
+            </template>
+        </div>
+        </div>
+        </lightning-card>
+</template>

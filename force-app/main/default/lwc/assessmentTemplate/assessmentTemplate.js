@@ -2,9 +2,12 @@ import { LightningElement, wire, track } from "lwc";
 import { CurrentPageReference } from "lightning/navigation";
 import { registerListener, unregisterAllListeners, fireEvent } from "c/pubsub";
 import getAssessmentQuestions from "@salesforce/apex/AG_Human_Service_CL.getAssessmentQuestions";
+import saveAssessmentList from "@salesforce/apex/AG_Human_Service_CL.saveAssessmentList";
 
 export default class AssessmentTemplate extends LightningElement {
   assessmentId = "";
+  serviceRequestId = "";
+  showSaveBtn = false ;
   @track questionList = [];
 
   @wire(CurrentPageReference) pageRef;
@@ -12,15 +15,20 @@ export default class AssessmentTemplate extends LightningElement {
   connectedCallback() {
     // subscribe to searchKeyChange event
     registerListener("assessmentSelected", this.handleAssessmentChange, this);
+    registerListener("serviceRequestSelected", this.handleServiceChange, this);
+  }
+  handleServiceChange(serviceRequest) {
+    console.log("searchKey==>" + serviceRequest);
+    this.serviceRequestId = serviceRequest ;
   }
 
   disconnectedCallback() {
     // unsubscribe from searchKeyChange event
     unregisterAllListeners(this);
   }
-  handleAssessmentChange(assessmentId) {
-    console.log("searchKey==>" + assessmentId);
-    this.assessmentId = assessmentId;
+  handleAssessmentChange(objToFire) {
+    console.log("searchKey==>" + objToFire);
+    this.assessmentId = objToFire;
     this.questionList = [];
     this.getQuestions();
   }
@@ -31,6 +39,7 @@ export default class AssessmentTemplate extends LightningElement {
       .then((result) => {
         var res = JSON.parse(result);
         const quesList = res.data;
+        this.showSaveBtn = true ;
         quesList.forEach((questionObj) => {
           var pickValuesToAdd = []
           var pickListValues = questionObj['Questionaire_Picklist_Values__r']['records']
@@ -50,7 +59,8 @@ export default class AssessmentTemplate extends LightningElement {
                     isNumber : questionObj['AG_Question_Type__c'] == 'Number',
                     isCheckBox : questionObj['AG_Question_Type__c'] == 'Checkbox',
                     isText : questionObj['AG_Question_Type__c'] == 'Text',
-                    pickListValues : pickValuesToAdd
+                    pickListValues : pickValuesToAdd,
+                    answer : ''
                     }
             this.questionList.push(newObj);
             console.log("questionList==>"+JSON.stringify(this.questionList))
@@ -61,6 +71,37 @@ export default class AssessmentTemplate extends LightningElement {
       });
   }
   handleChange(event){
-    console.log("questionList==>"+JSON.stringify(event.target.dataset.name));
+    this.questionList[event.target.dataset.name]['answer'] = event.detail.value
+    console.log("questionList==>"+JSON.stringify(this.questionList));
+    console.log("questionList==>"+JSON.stringify(event.detail.value));
+  }
+  saveAssessment(){
+    var finalList = []
+    
+    this.questionList.forEach((x)=>{
+      var newObj = {
+        question: x.questions.Name,
+        answer : x.answer,
+        }
+        finalList.push(newObj);
+        
+    });
+    var templateObj = {
+      serviceRequestId : this.serviceRequestId,
+      assessmentTemplateId : this.assessmentId,
+      assessmentAnswerList : finalList
+    }
+    console.log("questionList==>"+JSON.stringify(templateObj));
+    saveAssessmentList({
+      assessmentObj: JSON.stringify(templateObj)
+    })
+      .then((result) => {
+        var res = JSON.parse(result);
+        console.log("res==>"+JSON.stringify(res));
+        
+       })
+      .catch((error) => {
+        console.log("Error"+error);
+      });
   }
 }

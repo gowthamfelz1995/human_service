@@ -150,6 +150,13 @@ public with sharing class AG_Human_Service_CL {
             SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
         ];
     }
+    @AuraEnabled(cacheable=true)
+    public static List<AG_Service_Request__c>  getServiceRequest(String searchKey) {
+        String key = '%' + searchKey + '%';
+        return [
+            SELECT Id, Name FROM AG_Service_Request__c WHERE Name LIKE :key LIMIT 10
+        ];
+    }
 
     @AuraEnabled(cacheable=true)
     public static string getAssessmentQuestions(Id assessmentId){
@@ -164,5 +171,22 @@ public with sharing class AG_Human_Service_CL {
         List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
         System.debug('assessmentTempList==>'+questionList);
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
+    }
+
+    @AuraEnabled
+    public static string saveAssessmentList(String assessmentObj){
+        assessmentWrapper wrapperList = (assessmentWrapper) JSON.deserialize(assessmentObj,assessmentWrapper.class);
+        system.debug('assessmentWrapper-->'+wrapperList);
+        return 'Success';
+        
+    }
+    public class assessmentWrapper{
+        public String serviceRequestId {get;set;}
+        public String assessmentTemplateId {get;set;}
+        public List<assessmentAnswerWrapper> assessmentAnswerList {get;set;}
+    }
+    public class assessmentAnswerWrapper{
+        public String question {get;set;}
+        public String answer {get;set;}
     }
 }
