@@ -171,10 +171,10 @@ public with sharing class AG_Human_Service_CL {
             SELECT Id, Name FROM AG_Template__c  WHERE Name LIKE :key LIMIT 10
         ];
     }
-    
+
     @AuraEnabled(cacheable=true)
-    public static List<AG_Template__c>  getAssessmentTemplatesList() {
-       List<AG_Template__c> assessmentTemplateList = [SELECT Id, Name, FROM AG_Template__c  WHERE AG_Template_Type__c =: 'Assessment' LIMIT 10 ];
+    public static string  getAssessmentTemplatesList() {
+       List<AG_Template__c> assessmentTemplateList = [SELECT Id, Name,AG_Template_Type__c FROM AG_Template__c  WHERE AG_Template_Type__c =: 'Assessment' LIMIT 10 ];
        return '{"success": true, "data" : '+JSON.serialize(assessmentTemplateList)+'}';
     }
 
