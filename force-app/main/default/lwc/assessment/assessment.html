@@ -1,3 +1,23 @@
 <template>
-    
+    <lightning-card title="Choose Assessment Template" icon-name="action:add_file">
+        <div class="slds-m-around_medium" onassessmentselect={handleAssessmentSelect}>
+        <div class="slds-m-around_medium">
+            <lightning-input
+                type="search"
+                onchange={handleKeyChange}
+                class="slds-m-bottom_small"
+                label="Search"
+                value={searchKey}
+            ></lightning-input>
+            <template if:true={assessmentTemplateList.data}>
+                <template for:each={assessmentTemplateList.data} for:item="assessment">
+                    <c-assessment-list-item-bubbling
+                    key={assessment.Id}
+                    assessment={assessment}
+                ></c-assessment-list-item-bubbling>
+                </template>
+            </template>
+        </div>
+        </div>
+        </lightning-card>
 </template>

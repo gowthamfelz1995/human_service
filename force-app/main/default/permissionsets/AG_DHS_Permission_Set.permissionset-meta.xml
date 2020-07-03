@@ -30,31 +30,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service_Line_Item__c.AG_From_Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service_Line_Item__c.AG_Intake__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service_Line_Item__c.AG_Service__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service_Line_Item__c.AG_To_Date__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service_Request__c.AG_Service_Type__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>AG_Service__c.AG_Description__c</field>
         <readable>true</readable>
@@ -63,16 +38,6 @@
         <editable>true</editable>
         <field>AG_Service__c.AG_From_Date__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service__c.AG_Service_Name__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>AG_Service__c.AG_Service_Type__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -105,6 +70,10 @@
     </tabSettings>
     <tabSettings>
         <tab>AG_Service__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Assessment</tab>
         <visibility>Visible</visibility>
     </tabSettings>
 </PermissionSet>
