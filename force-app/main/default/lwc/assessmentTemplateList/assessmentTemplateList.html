@@ -1,0 +1,69 @@
+<template>
+    <template if:true={showListTemplate}>
+    <lightning-card title="Choose Assessment Template" icon-name="action:add_file">
+        <template for:each={templateList} for:item="assessment" for:index="index">
+            <div  key={assessment.Name} class="slds-m-around_medium slds-p-left_x-large">
+            <lightning-input
+            key={assessment.Name}
+            label={assessment.Name}
+            data-value={index}
+            checked ={assessment.isChecked}
+            type="checkbox"
+            onchange={handleCheckboxChange}
+        ></lightning-input>
+    </div>
+        </template>
+        <div class="slds-align_absolute-center">
+            <span class="slds-p-around_xx-small">
+            <lightning-button
+                label="Cancel"
+                variant="neutral"
+                onclick={handleCancel}
+            ></lightning-button>
+            </span>
+            <span class="slds-p-around_xx-small">
+            <lightning-button
+                label="Next"
+                variant="brand"
+                onclick={handleNext}
+            ></lightning-button>
+            </span>
+        </div>
+        </lightning-card>
+    </template>
+    <template if:false={showListTemplate}>
+        <lightning-card title={assessmentName} icon-name="action:log_event">
+            <template  for:each={questionList} for:item="question" for:index="index">
+                <div class="slds-p-around_large" key={question}>
+                <span key={question.questions.Id} class="slds-text-heading_small">{question.questions.Name}</span>
+                <template if:true={question.isPickList}>
+                    <lightning-combobox key={question.pickListValues} data-name={index} name={index} label=""
+                        placeholder="Choose one.." options={question.pickListValues} onchange={handleChange}>
+                    </lightning-combobox>
+                </template>
+                <template if:true={question.isText}>
+                    <lightning-input type="text" label={question.questions.Name} data-name={index} value={textValue} onchange={handleChange}></lightning-input>
+                </template>
+            </div>
+            </template>
+            <template if:true={showSaveBtn}>
+                <div class="slds-align_absolute-center">
+                    <span class="slds-p-around_xx-small">
+                <lightning-button
+                label="Back"
+                variant="neutral"
+                onclick={handleback}
+            ></lightning-button>
+              </span>
+              <span class="slds-p-around_xx-small">
+                <lightning-button
+                    label="Save"
+                    onclick={saveAssessment}
+                    variant="brand"
+                ></lightning-button>
+            </span>
+        </div>
+        </template>
+        </lightning-card>
+            </template>
+</template>

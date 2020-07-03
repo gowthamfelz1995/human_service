@@ -2,7 +2,7 @@
     navigateToParent: function (component, event, helper) {
         var event = $A.get("e.force:navigateToComponent");
         event.setParams({
-            componentDef: "c:NavigateToTab",
+            componentDef: "c:AssessmentTemplateList",
             componentAttributes: {
                 recordId: component.get("v.recordId")
             }
