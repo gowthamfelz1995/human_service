@@ -4,7 +4,7 @@
             <div class="slds-p-around_large" key={question}>
             <span key={question.questions.Id} class="slds-text-heading_small">{question.questions.Name}</span>
             <template if:true={question.isPickList}>
-                <lightning-combobox key={question.pickListValues} name={index} label="" value=""
+                <lightning-combobox key={question.pickListValues} data-name={index} name={index} label="" value=""
                     placeholder="Choose one.." options={question.pickListValues} onchange={handleChange}>
                 </lightning-combobox>
             </template>

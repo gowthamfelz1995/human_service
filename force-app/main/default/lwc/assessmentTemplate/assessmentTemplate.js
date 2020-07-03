@@ -61,6 +61,6 @@ export default class AssessmentTemplate extends LightningElement {
       });
   }
   handleChange(event){
-    console.log("questionList==>"+JSON.stringify(event));
+    console.log("questionList==>"+JSON.stringify(event.target.dataset.name));
   }
 }
