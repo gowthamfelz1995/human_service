@@ -26,11 +26,10 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string waitListLead( Id recordId, String status, String comments){
+    public static string waitListLead( Id recordId, String status){
         try{
-            Lead lead = [SELECT Id, Name, Status, AG_Comments__c FROM Lead WHERE Id =: recordId];
+            Lead lead = [SELECT Id, Name, Status  FROM Lead WHERE Id =: recordId];
             lead.status = status;
-            lead.AG_Comments__c = comments;
             update lead;
 
             return '{"success" : true, "message" : "Lead waitlisted successfully"}';
@@ -100,17 +99,10 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string getServiceRequest(Id recordId){
+    public static string getServiceRequest(Id intakeId){
         try {
-            List<ServiceWrapper> serviceWrapperList = new List<ServiceWrapper>();
-
-            AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Intake__c, AG_Service_Type__c FROM AG_Service_Request__c WHERE Id =: recordId];
-
-            for (AG_Service__c service : [SELECT Id, AG_Service_Name__c, AG_Service_Type__c FROM AG_Service__c WHERE AG_Service_Type__c =: serviceRequest.AG_Service_Type__c]) {
-                serviceWrapperList.add(new ServiceWrapper(false, service));
-            }
-
-            return '{"success" : true, "serviceRequest" : '+JSON.serialize(serviceRequest)+' , "serviceWrapperList" : '+JSON.serialize(serviceWrapperList)+'}';
+            AG_Service_Request__c serviceRequest = [SELECT Id, Name, AG_Service_Type__c FROM AG_Service_Request__c WHERE AG_Intake__c =: intakeId];
+            return '{"success" : true, "data" : '+JSON.serialize(serviceRequest)+'}';
         }
         catch(Exception e){
             System.debug(e.getLineNumber());
@@ -151,13 +143,25 @@ public with sharing class AG_Human_Service_CL {
         }
     }
 
-    public class ServiceWrapper{
-        public Boolean isSelected;
-        public AG_Service__c service;
-
-        public ServiceWrapper(Boolean isSelected, AG_Service__c service){
-            this.isSelected = isSelected;
-            this.service = service;
+    @AuraEnabled(cacheable=true)
+    public static List<AG_Assessment_Template__c>  getAssessmentTemplates(String searchKey) {
+        String key = '%' + searchKey + '%';
+        return [
+            SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
+        ];
+    }
+    @AuraEnabled(cacheable=true)
+    public static string getAssessmentQuestions(Id assessmentId){
+        List<AG_Template_Questionnaires__c> assessmentTempList = [SELECT Id,AG_Assessment_Question__c,AG_Assessment_Template__c FROM AG_Template_Questionnaires__c WHERE AG_Assessment_Template__c =: assessmentId];
+        Set<String> questionIdList = new Set<String>();
+        
+        for (AG_Template_Questionnaires__c assessmentTemp : assessmentTempList) {
+            System.debug('assessmentTempList==>'+assessmentTemp.AG_Assessment_Question__c);
+            questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
         }
+       
+        List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
+        System.debug('assessmentTempList==>'+questionList);
+        return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
     }
 }
