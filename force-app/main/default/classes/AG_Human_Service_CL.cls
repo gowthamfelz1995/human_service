@@ -171,26 +171,34 @@ public with sharing class AG_Human_Service_CL {
         Set<String> questionIdList = new Set<String>();
 
         for (AG_Template_Questionnaires__c assessmentTemp : assessmentTempList) {
-            System.debug('assessmentTempList==>'+assessmentTemp.AG_Assessment_Question__c);
             questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
         }
 
-        List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
-        System.debug('assessmentTempList==>'+questionList);
+        List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
     }
 
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
         assessmentWrapper wrapperList = (assessmentWrapper) JSON.deserialize(assessmentObj,assessmentWrapper.class);
+        System.debug('assessmentTempList==>'+wrapperList);
         AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Assessment_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
         insert newAssessment;
         List<AG_Assessment_Value__c> newAssessmentValueList = new List<AG_Assessment_Value__c>();
+        Integer totalScore = 0 ;
+            
         for(assessmentAnswerWrapper assessmentAnwser : wrapperList.assessmentAnswerList){
-            AG_Assessment_Value__c  newAssessmentValue = new AG_Assessment_Value__c(AG_Assessment__c=newAssessment.Id,Name=assessmentAnwser.question,AG_Answer__c=assessmentAnwser.answer);
+            Integer scoreValue = 0 ;
+            if(assessmentAnwser.answer != ''){
+                scoreValue = assessmentAnwser.score ;
+                totalScore = totalScore + assessmentAnwser.score ;
+            }
+            AG_Assessment_Value__c  newAssessmentValue = new AG_Assessment_Value__c(AG_Assessment__c=newAssessment.Id,Name=assessmentAnwser.question,AG_Answer__c=assessmentAnwser.answer, AG_Score__c =scoreValue);
             newAssessmentValueList.add(newAssessmentValue);
         }
         insert newAssessmentValueList;
+        newAssessment.AG_Total_Score__c =  totalScore;
+        update newAssessment;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
         
     }
@@ -202,6 +210,7 @@ public with sharing class AG_Human_Service_CL {
     public class assessmentAnswerWrapper{
         public String question {get;set;}
         public String answer {get;set;}
+        public Integer score {get;set;}
     }
     public class ServiceWrapper{
         public Boolean isSelected;

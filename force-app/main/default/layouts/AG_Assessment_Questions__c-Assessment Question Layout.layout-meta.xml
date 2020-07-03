@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>AG_Question_Type__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AG_Score__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -58,6 +62,10 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>AG_Questionaire_Picklist_Value__c.AG_Assessment_Question__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <relatedList>AG_Assessment__c.AG_Assessment_Question__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>

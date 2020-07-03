@@ -50,6 +50,7 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
         var res = JSON.parse(result);
         const quesList = res.data;
         this.showSaveBtn = true ;
+        console.log("resnew==>"+JSON.stringify(res))
         quesList.forEach((questionObj) => {
           var pickValuesToAdd = []
           var pickListValues = questionObj['Questionaire_Picklist_Values__r']['records']
@@ -73,7 +74,7 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
                     answer : ''
                     }
             this.questionList.push(newObj);
-            console.log("questionList==>"+JSON.stringify(this.questionList))
+            
            });
        })
       .catch((error) => {
@@ -82,8 +83,7 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
   }
   handleChange(event){
     this.questionList[event.target.dataset.name]['answer'] = event.detail.value
-    console.log("questionList==>"+JSON.stringify(this.questionList));
-    console.log("questionList==>"+JSON.stringify(event.detail.value));
+   
   }
   saveAssessment(){
     var finalList = []
@@ -92,6 +92,7 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
       var newObj = {
         question: x.questions.Name,
         answer : x.answer,
+        score : x.questions.AG_Score__c
         }
         finalList.push(newObj);
         
