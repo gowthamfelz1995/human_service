@@ -12,7 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>AG_Assessment_Template__c</field>
+                <field>AG_Template__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

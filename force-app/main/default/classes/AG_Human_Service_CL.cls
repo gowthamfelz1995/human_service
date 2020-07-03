@@ -165,10 +165,10 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled(cacheable=true)
-    public static List<AG_Assessment_Template__c>  getAssessmentTemplates(String searchKey) {
+    public static List<AG_Template__c>  getAssessmentTemplates(String searchKey) {
         String key = '%' + searchKey + '%';
         return [
-            SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
+            SELECT Id, Name FROM AG_Template__c  WHERE Name LIKE :key LIMIT 10
         ];
     }
     @AuraEnabled(cacheable=true)
@@ -177,26 +177,26 @@ public with sharing class AG_Human_Service_CL {
         return [
             SELECT Id, Name FROM AG_Service_Request__c WHERE Name LIKE :key LIMIT 10
         ];
-    }
+    } 
 
-    @AuraEnabled(cacheable=true)
+   @AuraEnabled(cacheable=true)
     public static string getAssessmentQuestions(Id assessmentId){
-        List<AG_Template_Questionnaires__c> assessmentTempList = [SELECT Id,AG_Assessment_Question__c,AG_Assessment_Template__c FROM AG_Template_Questionnaires__c WHERE AG_Assessment_Template__c =: assessmentId];
+        List<AG_Template_Questionnaires__c> assessmentTempList = [SELECT Id,AG_Assessment_Question__c,AG_Template__c  FROM AG_Template_Questionnaires__c WHERE AG_Template__c  =: assessmentId];
         Set<String> questionIdList = new Set<String>();
 
         for (AG_Template_Questionnaires__c assessmentTemp : assessmentTempList) {
             questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
         }
 
-        List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
+        List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
-    }
+    }   
 
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
         assessmentWrapper wrapperList = (assessmentWrapper) JSON.deserialize(assessmentObj,assessmentWrapper.class);
         System.debug('assessmentTempList==>'+wrapperList);
-        AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Assessment_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
+        AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
         insert newAssessment;
 
         List<AG_Assessment_Value__c> newAssessmentValueList = new List<AG_Assessment_Value__c>();
@@ -218,8 +218,7 @@ public with sharing class AG_Human_Service_CL {
         serviceRequest.AG_Status__c = 'In Assessment';
         update serviceRequest;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
-        
-    }
+    } 
     public class assessmentWrapper{
         public String serviceRequestId {get;set;}
         public String assessmentTemplateId {get;set;}

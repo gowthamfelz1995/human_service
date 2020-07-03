@@ -123,16 +123,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Assessment_Questions__c.AG_Question_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AG_Assessment_Questions__c.AG_Score__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>AG_Assessment_Value__c.AG_Answer__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -159,11 +149,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AG_Assessment__c.AG_Assessment_Question__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AG_Assessment__c.AG_Assessment_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -203,6 +188,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Assessment__c.AG_Template__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AG_Assessment__c.AG_Total_Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -229,6 +219,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AG_Intake__c.AG_Service_Provider__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Question__c.AG_Question_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Question__c.AG_Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -318,7 +318,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AG_Template_Questionnaires__c.AG_Assessment_Template__c</field>
+        <field>AG_Template_Questionnaires__c.AG_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -350,12 +350,6 @@
         <layout>AG_Activity__c-Activity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AG_Assessment_Questions__c-Assessment Question Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AG_Assessment_Template__c-Assessment Template Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>AG_Assessment_Value__c-Assessment Value Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -363,6 +357,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Intake__c-Intake Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Question__c-Assessment Question Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Questionaire_Picklist_Value__c-Questionaire Picklist Value Layout</layout>
@@ -378,6 +375,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Template_Questionnaires__c-Template Questionnaire Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Template__c-Assessment Template Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
@@ -478,16 +478,12 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>AG_Assessment_Questions__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>AG_Assessment_Template__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>AG_Intake__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Question__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Service_Line_Item__c</tab>
@@ -503,6 +499,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AG_Template_Questionnaires__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>AG_Template__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
