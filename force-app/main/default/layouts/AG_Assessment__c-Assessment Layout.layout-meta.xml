@@ -28,6 +28,10 @@
                 <behavior>Edit</behavior>
                 <field>AG_Service_Request__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AG_Total_Score__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -60,6 +64,12 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <platformActionList>
+        <actionListContext>Record</actionListContext>
+    </platformActionList>
+    <relatedLists>
+        <relatedList>RelatedEntityHistoryList</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
@@ -82,6 +92,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>AG_Answer__c</fields>
+        <fields>AG_Score__c</fields>
         <fields>CREATEDBY_USER</fields>
         <relatedList>AG_Assessment_Value__c.AG_Assessment__c</relatedList>
     </relatedLists>

@@ -96,7 +96,6 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
   }
   handleChange(event) {
     this.questionList[event.target.dataset.name]['answer'] = event.detail.value
-
   }
   saveAssessment() {
     var finalList = []
