@@ -10,7 +10,7 @@
                 </lightning-record-view-form>
                 <br />
 
-                <template if:true={services}>
+                <template if:true={serviceObjectList}>
                     <div style="padding-bottom: 5px;">
                         <strong>Available Services</strong>
                     </div>
@@ -29,25 +29,26 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <template for:each={services} for:item="service">
-                                <tr class="slds-hint-parent" key={service.service.Id}>
+                            <template for:each={serviceObjectList} for:item="service" for:index="index">
+                                <tr class="slds-hint-parent" key={service.Id}>
                                     <td>
                                         <div class="slds-truncate">
-                                            <lightning-input type="checkbox" label={service.service.AG_Service_Name__c}
-                                                checked={service.isSelected} onchange={handleChange}
-                                                onclick={handleClick}>
+                                            <lightning-input type="checkbox" label={service.name}
+                                                checked={service.isSelected} onchange={handleChange} data-name={index}>
                                             </lightning-input>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="slds-truncate">
-                                            <lightning-input onchange={getFromDate} value={fromDate} type="Date">
+                                            <lightning-input onchange={getFromDate} value={service.fromDate} type="Date"
+                                                data-name={index}>
                                             </lightning-input>
                                         </div>
                                     </td>
                                     <td>
                                         <div class="slds-truncate">
-                                            <lightning-input onchange={getToDate} value={toDate} type="Date">
+                                            <lightning-input onchange={getToDate} value={service.toDate} type="Date"
+                                                data-name={index}>
                                             </lightning-input>
                                         </div>
                                     </td>
