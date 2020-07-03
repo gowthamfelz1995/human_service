@@ -150,16 +150,17 @@ public with sharing class AG_Human_Service_CL {
             SELECT Id, Name FROM AG_Assessment_Template__c WHERE Name LIKE :key LIMIT 10
         ];
     }
+
     @AuraEnabled(cacheable=true)
     public static string getAssessmentQuestions(Id assessmentId){
         List<AG_Template_Questionnaires__c> assessmentTempList = [SELECT Id,AG_Assessment_Question__c,AG_Assessment_Template__c FROM AG_Template_Questionnaires__c WHERE AG_Assessment_Template__c =: assessmentId];
         Set<String> questionIdList = new Set<String>();
-        
+
         for (AG_Template_Questionnaires__c assessmentTemp : assessmentTempList) {
             System.debug('assessmentTempList==>'+assessmentTemp.AG_Assessment_Question__c);
             questionIdList.add(assessmentTemp.AG_Assessment_Question__c);
         }
-       
+
         List<AG_Assessment_Questions__c> questionList = [SELECT Id,Name,AG_Question_Type__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Assessment_Questions__c WHERE Id IN: questionIdList];
         System.debug('assessmentTempList==>'+questionList);
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';

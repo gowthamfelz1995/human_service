@@ -65,12 +65,11 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
     handleChange(event) {
         this.checkedValue = event.target.checked;
         console.log('checkedValue--->' + this.checkedValue);
-        for (var service of this.services) {
-            console.log('service------->' + JSON.stringify(service));
-            var checkedService = this.services[this.checkedValue];
-            console.log('checkedService------->' +checkedService);
+    }
 
-        }
+    handleClick(event){
+        console.log('ENTERED ON CLICK');
+        console.log('checkedValue--->' +event.target.checked);
     }
 
     handleSave(event) {
