@@ -32,6 +32,15 @@
             ],
             "c/assessmentTemplate": [
                 "assessmentTemplate/assessmentTemplate.js"
+            ],
+            "c/navigateToTab": [
+                "navigateToTab/navigateToTab.js"
+            ],
+            "c/chooseServiceRequest": [
+                "chooseServiceRequest/chooseServiceRequest.js"
+            ],
+            "c/objListItem": [
+                "objListItem/objListItem.js"
             ]
         }
     },
