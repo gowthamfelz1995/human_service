@@ -1,6 +1,15 @@
 <template>
     <lightning-card title="Answer The Questions" icon-name="action:log_event">
-
+        <template  for:each={questionList} for:item="question" for:index="index">
+            <div class="slds-p-around_large" key={question}>
+            <span key={question.questions.Id} class="slds-text-heading_small">{question.questions.Name}</span>
+            <template if:true={question.isPickList}>
+                <lightning-combobox name="progress" key={question.pickListValues} label="" value=""
+                    placeholder="Choose one.." options={question.pickListValues} onchange={handleChange}>
+                </lightning-combobox>
+            </template>
+        </div>
+        </template>
     </lightning-card>
-    
+
 </template>
