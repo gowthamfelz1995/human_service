@@ -183,7 +183,7 @@ public with sharing class AG_Human_Service_CL {
                 Event event = new Event();
                 event.OwnerId = UserInfo.getUserId();
                 event.Location = 'Pittsburg';
-                event.Subject = 'Service';
+                event.Subject = 'Send Letter/Quote';
                 event.StartDateTime = System.today();
                 event.EndDateTime = System.today() + 1;
                 event.ActivityDateTime = System.today();
