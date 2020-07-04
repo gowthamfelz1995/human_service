@@ -153,14 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Activity</label>
+    <label>Log</label>
     <nameField>
-        <displayFormat>AC-{0000000000}</displayFormat>
-        <label>Activity Id</label>
+        <displayFormat>LG-{0000000000}</displayFormat>
+        <label>Log Id</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Activities</pluralLabel>
+    <pluralLabel>Logs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
