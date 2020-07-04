@@ -82,6 +82,7 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
         } else {
             saveServiceLineItem({
                     intakeId: this.intake,
+                    serviceRequestId: this.recordId,
                     services: JSON.stringify(this.filteredServices)
                 })
                 .then((result) => {
@@ -96,7 +97,7 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
                 .catch((error) => {
                     this.error = response.message;
                 })
-            this.returnToServiceLineItem();
+            this.handleCancel();
         }
     }
 

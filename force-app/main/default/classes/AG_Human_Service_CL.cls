@@ -136,7 +136,7 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string saveServiceLineItem(Id intakeId, String services){
+    public static string saveServiceLineItem(Id intakeId, Id serviceRequestId, String services){
         try {
             List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
 
@@ -144,6 +144,7 @@ public with sharing class AG_Human_Service_CL {
 
             for (ServiceWrapper serviceWrapper : serviceWrapperList) {
                 AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
+                serviceLineItem.AG_Service_Request__c = serviceRequestId;
                 serviceLineItem.AG_Intake__c = intakeId;
                 serviceLineItem.AG_Service__c = serviceWrapper.Id;
                 serviceLineItem.AG_From_Date__c = serviceWrapper.fromDate;
@@ -198,7 +199,8 @@ public with sharing class AG_Human_Service_CL {
 
         List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c,AG_Score__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
-    }   
+    }
+
     @AuraEnabled(cacheable=true)
     public static string getServiceQuestions(){
         AG_Template__c serviceTemplate = [SELECT Id,Name,AG_Template_Type__c FROM AG_Template__c WHERE AG_Template_Type__c =: 'Service' LIMIT 1];
@@ -209,7 +211,7 @@ public with sharing class AG_Human_Service_CL {
         }
         List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
-    }   
+    }
 
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
