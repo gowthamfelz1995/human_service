@@ -238,6 +238,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Questionaire_Picklist_Value__c.AG_Score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AG_Questionnaire_Template__c.AG_Question__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -279,6 +284,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>AG_Service_Request__c.AG_Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>AG_Service_Request__c.AG_Template__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>

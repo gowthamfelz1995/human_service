@@ -35,6 +35,11 @@
                 <default>false</default>
                 <label>Phone</label>
             </value>
+            <value>
+                <fullName>Text Area</fullName>
+                <default>false</default>
+                <label>Text Area</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

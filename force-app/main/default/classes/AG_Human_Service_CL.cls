@@ -196,7 +196,7 @@ public with sharing class AG_Human_Service_CL {
             questionIdList.add(assessmentTemp.AG_Question__c);
         }
 
-        List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
+        List<AG_Question__c> questionList = [SELECT Id,Name,AG_Question_Type__c,AG_Score__c,(SELECT Id,Name,AG_Picklist_Value__c,AG_Score__c FROM Questionaire_Picklist_Values__r) FROM AG_Question__c  WHERE Id IN: questionIdList];
         return '{"success": true, "data" : '+JSON.serialize(questionList)+'}';
     }   
     @AuraEnabled(cacheable=true)

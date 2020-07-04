@@ -23,6 +23,7 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
     @track questionList = [];
     serviceRequestObj = SERVICE_REQUEST;
     textValue = '';
+    @track totalMarks = 0 ;
 
     @wire(getAssessmentTemplatesList)
     assessmentTemplateLists({ error, data }) {
@@ -93,7 +94,8 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
                   console.log("pickValues==>" + JSON.stringify(pickValues))
                   var pickList = {
                     label: pickValues.AG_Picklist_Value__c,
-                    value: pickValues.AG_Picklist_Value__c
+                    value: pickValues.AG_Picklist_Value__c,
+                    score : pickValues.AG_Score__c
                   }
                   pickValuesToAdd.push(pickList);
                 });
@@ -106,6 +108,8 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
                 isNumber: questionObj['AG_Question_Type__c'] == 'Number',
                 isCheckBox: questionObj['AG_Question_Type__c'] == 'Checkbox',
                 isText: questionObj['AG_Question_Type__c'] == 'Text',
+                isTextArea : questionObj['AG_Question_Type__c'] == 'Text Area',
+                isPhone : questionObj['AG_Question_Type__c'] == 'Phone',
                 pickListValues: pickValuesToAdd,
                 answer: ''
               }
@@ -164,5 +168,25 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
       }
       handleChange(event) {
         this.questionList[event.target.dataset.name]['answer'] = event.detail.value
+        console.log(this.questionList[event.target.dataset.name])
+        if(this.questionList[event.target.dataset.name]['isPickList']){
+          var selectedPickListScore = 0
+          this.questionList[event.target.dataset.name]['pickListValues'].forEach(x => {
+            if(x.value == event.detail.value){
+              this.questionList[event.target.dataset.name]['questions']['AG_Score__c'] = x.score
+            }
+          });
+          
+        }
+        // this.totalMarks = this.totalMarks + this.questionList[event.target.dataset.name]['questions']['AG_Score__c'] ;
+      }
+      calculateTotalScore(){
+        this.totalMarks = 0
+        this.questionList.forEach(x => {
+          if(x['answer'] != ''){
+            this.totalMarks = this.totalMarks + x['questions']['AG_Score__c'] ;
+          }
+          
+        });
       }
 }
