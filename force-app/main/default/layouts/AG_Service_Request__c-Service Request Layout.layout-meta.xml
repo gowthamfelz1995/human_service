@@ -83,6 +83,15 @@
         </platformActionListItems>
     </platformActionList>
     <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
+        <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
+        <fields>AG_Service__c</fields>
+        <fields>AG_From_Date__c</fields>
+        <fields>AG_To_Date__c</fields>
+        <relatedList>AG_Service_Line_Item__c.AG_Service_Request__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
