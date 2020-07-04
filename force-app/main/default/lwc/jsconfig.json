@@ -44,6 +44,9 @@
             ],
             "c/assessmentTemplateList": [
                 "assessmentTemplateList/assessmentTemplateList.js"
+            ],
+            "c/serviceLog": [
+                "serviceLog/serviceLog.js"
             ]
         }
     },
