@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
-    <height>335</height>
+    <height>350</height>
     <label>Waitlist</label>
     <lightningComponent>waitListNavigation</lightningComponent>
     <optionsCreateFeedItem>false</optionsCreateFeedItem>

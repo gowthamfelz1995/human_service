@@ -9,14 +9,13 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Human Service</label>
+    <label>Health Service</label>
     <navType>Standard</navType>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>AG_Service__c</tabs>
     <tabs>AG_Service_Line_Item__c</tabs>
-    <tabs>AG_Activity__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Human_Service_UtilityBar</utilityBar>
 </CustomApplication>

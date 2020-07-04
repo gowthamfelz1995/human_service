@@ -26,10 +26,11 @@ public with sharing class AG_Human_Service_CL {
     }
 
     @AuraEnabled
-    public static string waitListLead(Id recordId, String comment){
+    public static string waitListLead(Id recordId,Date waitUntil,String comment){
         try{
-            Lead lead = [SELECT Id, Name, Status, AG_Comment__c   FROM Lead WHERE Id =: recordId];
+            Lead lead = [SELECT Id, Name, Status,AG_Wait_Until__c ,AG_Comment__c   FROM Lead WHERE Id =: recordId];
             lead.status = 'Waitlisted';
+            lead.AG_Wait_Until__c = waitUntil;
             lead.AG_Comment__c  = comment ;
             update lead;
 
@@ -235,8 +236,9 @@ public with sharing class AG_Human_Service_CL {
         insert newAssessmentValueList;
         newAssessment.AG_Total_Score__c =  totalScore;
         update newAssessment;
-        AG_Service_Request__c serviceRequest = [SELECT Id,AG_Status__c FROM AG_Service_Request__c WHERE Id = : wrapperList.serviceRequestId];
+        AG_Service_Request__c serviceRequest = [SELECT Id,AG_Status__c,AG_Total_Score__c FROM AG_Service_Request__c WHERE Id = : wrapperList.serviceRequestId];
         serviceRequest.AG_Status__c = 'In Assessment';
+        serviceRequest.AG_Total_Score__c = totalScore;
         update serviceRequest;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
     }

@@ -22,6 +22,10 @@
                 <behavior>Edit</behavior>
                 <field>AG_Intake__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AG_Total_Score__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -32,6 +32,10 @@
                 <behavior>Edit</behavior>
                 <field>AG_Comment__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AG_Wait_Until__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

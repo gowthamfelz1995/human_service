@@ -8,8 +8,9 @@
         var action = component.get("c.waitListLead");
         var recordId = component.get("v.recordId");
         var commentValue = component.get("v.commentValue");
+         var waitUntilDate = component.get("v.waitUntil");
         console.log("ENTERS");
-        action.setParams ({ "comment" : commentValue,"recordId" : recordId });
+        action.setParams ({ "comment" : commentValue,"waitUntil":waitUntilDate,"recordId" : recordId });
         action.setCallback(this,function(response) {
             var state = response.getState();
             if(state == "SUCCESS"){

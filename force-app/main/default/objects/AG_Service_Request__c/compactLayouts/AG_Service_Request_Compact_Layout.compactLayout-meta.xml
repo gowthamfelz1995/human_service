@@ -5,5 +5,6 @@
     <fields>AG_Intake__c</fields>
     <fields>AG_Service_Type__c</fields>
     <fields>AG_Status__c</fields>
+    <fields>AG_Total_Score__c</fields>
     <label>Service Request Compact Layout</label>
 </CompactLayout>

@@ -24,6 +24,7 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
     serviceRequestObj = SERVICE_REQUEST;
     textValue = '';
     @track totalMarks = 0 ;
+    @track showScore = false ;
 
     @wire(getAssessmentTemplatesList)
     assessmentTemplateLists({ error, data }) {
@@ -95,7 +96,7 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
                   var pickList = {
                     label: pickValues.AG_Picklist_Value__c,
                     value: pickValues.AG_Picklist_Value__c,
-                    score : pickValues.AG_Score__c
+                    score : pickValues.AG_Score__c,
                   }
                   pickValuesToAdd.push(pickList);
                 });
@@ -182,6 +183,7 @@ export default class AssessmentTemplateList extends NavigationMixin(LightningEle
       }
       calculateTotalScore(){
         this.totalMarks = 0
+        this.showScore = true ; 
         this.questionList.forEach(x => {
           if(x['answer'] != ''){
             this.totalMarks = this.totalMarks + x['questions']['AG_Score__c'] ;
