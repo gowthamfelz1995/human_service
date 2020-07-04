@@ -31,6 +31,14 @@
     <flexiPageRegions>
         <componentInstances>
             <componentInstanceProperties>
+                <name>parentFieldApiName</name>
+                <value>AG_Intake__c.Id</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>relatedListApiName</name>
+                <value>Service_Requests__r</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
                 <name>relatedListComponentOverride</name>
                 <value>NONE</value>
             </componentInstanceProperties>
@@ -42,7 +50,7 @@
                 <name>showActionBar</name>
                 <value>true</value>
             </componentInstanceProperties>
-            <componentName>force:relatedListContainer</componentName>
+            <componentName>force:relatedListSingleContainer</componentName>
         </componentInstances>
         <mode>Replace</mode>
         <name>relatedTabContent</name>

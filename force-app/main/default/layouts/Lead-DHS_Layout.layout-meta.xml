@@ -16,17 +16,13 @@
     <excludeButtons>XClean</excludeButtons>
     <layoutSections>
         <customLabel>true</customLabel>
-        <detailHeading>false</detailHeading>
-        <editHeading>false</editHeading>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
         <label>Details</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Email</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -43,11 +39,15 @@
                 <field>Title</field>
             </layoutItems>
             <layoutItems>
-                <emptySpace>true</emptySpace>
+                <behavior>Edit</behavior>
+                <field>Email</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AG_Referred_By__c</field>
+            </layoutItems>
+            <layoutItems>
+                <emptySpace>true</emptySpace>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -69,21 +69,21 @@
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Phone</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Status</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Phone</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
+        <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
-        <label>Custom Links</label>
+        <label>Address</label>
         <layoutColumns/>
         <layoutColumns/>
         <layoutColumns/>
@@ -92,14 +92,14 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>Lead.AG_Waitlist</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>0</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>Lead.AG_Intake</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Lead.AG_Waitlist</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>0</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList/>
@@ -129,7 +129,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hN0000001miIs</masterLabel>
+        <masterLabel>00h1y000000bm0c</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

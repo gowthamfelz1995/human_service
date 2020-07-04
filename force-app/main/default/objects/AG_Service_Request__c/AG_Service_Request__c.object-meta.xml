@@ -167,6 +167,13 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Service Requests</pluralLabel>
+    <profileSearchLayouts>
+        <fields>NAME</fields>
+        <fields>00N1y000002u7Or</fields>
+        <fields>00N1y000002u7Ot</fields>
+        <fields>00N1y000002u7Os</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
