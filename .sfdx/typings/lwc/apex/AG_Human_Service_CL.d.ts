@@ -37,3 +37,6 @@ declare module "@salesforce/apex/AG_Human_Service_CL.getServiceQuestions" {
 declare module "@salesforce/apex/AG_Human_Service_CL.saveAssessmentList" {
   export default function saveAssessmentList(param: {assessmentObj: any}): Promise<any>;
 }
+declare module "@salesforce/apex/AG_Human_Service_CL.saveServiceLogList" {
+  export default function saveServiceLogList(param: {logObjList: any}): Promise<any>;
+}
