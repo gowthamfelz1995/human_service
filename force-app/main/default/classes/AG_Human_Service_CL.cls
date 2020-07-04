@@ -141,7 +141,17 @@ public with sharing class AG_Human_Service_CL {
         try {
             List<AG_Service_Line_Item__c> serviceLineItemList = new List<AG_Service_Line_Item__c>();
 
+            List<Task> taskList = new List<Task>();
+
+            List<Event> eventList = new List<Event>();
+
             List<ServiceWrapper> serviceWrapperList = (List<ServiceWrapper>) JSON.deserialize(services, List<ServiceWrapper>.class);
+
+            AG_Intake__c intake = [SELECT Id, AG_Client__c FROM AG_Intake__c WHERE Id = : intakeId];
+
+            Account account = [SELECT Id, Name FROM Account WHERE Id = : intake.AG_Client__c];
+
+            Contact contact = [SELECT Id, Name FROM Contact WHERE AccountId = : account.Id];
 
             for (ServiceWrapper serviceWrapper : serviceWrapperList) {
                 AG_Service_Line_Item__c serviceLineItem = new AG_Service_Line_Item__c();
@@ -158,6 +168,35 @@ public with sharing class AG_Human_Service_CL {
             AG_Service_Request__c serviceRequest = [SELECT Id, AG_Status__c FROM AG_Service_Request__c WHERE AG_Intake__c =: intakeId];
             serviceRequest.AG_Status__c = 'In Service';
             update serviceRequest;
+
+            for (AG_Service_Line_Item__c serviceLineItem : serviceLineItemList) {
+                Task task = new Task();
+                task.Description = 'A service line item has been created';
+                task.Subject = 'A service line item has been created by' +' '+UserInfo.getName();
+                task.ActivityDate = System.today();
+                task.Status = 'Completed';
+                task.WhatId = serviceLineItem.Id;
+                task.WhoId = contact.Id;
+                task.Priority = 'High';
+                taskList.add(task);
+
+                Event event = new Event();
+                event.OwnerId = UserInfo.getUserId();
+                event.Location = 'Pittsburg';
+                event.Subject = 'Service';
+                event.StartDateTime = System.today();
+                event.EndDateTime = System.today() + 1;
+                event.ActivityDateTime = System.today();
+                event.ActivityDate = System.today();
+                event.WhoId = contact.Id;
+                event.WhatId = serviceLineItem.Id;
+                event.Description = 'A service assigned to the user' +' '+UserInfo.getName();
+                eventList.add(event);
+            }
+
+            insert taskList;
+
+            insert eventList;
 
             return '{"success": true, "data" : '+JSON.serialize(serviceLineItemList)+', "message": "Service line item created successfully"}';
         }
