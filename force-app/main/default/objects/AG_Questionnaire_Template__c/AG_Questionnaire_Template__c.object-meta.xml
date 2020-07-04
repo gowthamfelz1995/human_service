@@ -156,7 +156,7 @@
     <label>Questionnaire Template</label>
     <nameField>
         <displayFormat>TQ-{000000}</displayFormat>
-        <label>Template  Name</label>
+        <label>Template  ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

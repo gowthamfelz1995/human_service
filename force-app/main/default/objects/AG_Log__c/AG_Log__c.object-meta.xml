@@ -162,7 +162,7 @@
     <label>Log</label>
     <nameField>
         <displayFormat>LG-{0000000000}</displayFormat>
-        <label>Log Id</label>
+        <label>Log ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

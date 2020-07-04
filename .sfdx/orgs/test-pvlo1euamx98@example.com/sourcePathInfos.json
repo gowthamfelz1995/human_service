@@ -92,14 +92,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/applications/AG_Human_Service.app-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/applications/AG_Human_Service.app-meta.xml",
             "isDirectory": false,
-            "size": 856,
-            "modifiedTime": 1593853533814,
-            "changeTime": 1593853533814,
-            "contentHash": "5ec47df21240cd20552ab8d28ebc0e76af283d69",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 888,
+            "modifiedTime": 1593861446993,
+            "changeTime": 1593861446993,
+            "contentHash": "98a9927a9850d273a1136cc3fc82f3b5b1ba8fdf"
         }
     ],
     [
@@ -1494,7 +1494,7 @@
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/classes",
             "isDirectory": true,
             "size": 1664,
-            "modifiedTime": 1593860304191,
+            "modifiedTime": 1593860817657,
             "changeTime": 1593789233418,
             "contentHash": "0fc846bbcef8814f205717adc0b2fc3f9a87d115",
             "isMetadataFile": false,
@@ -1506,14 +1506,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/classes/AG_Human_Service_CL.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/classes/AG_Human_Service_CL.cls",
             "isDirectory": false,
+            "size": 14807,
+            "modifiedTime": 1593860817657,
+            "changeTime": 1593860817657,
+            "contentHash": "736f4d2c0ebc0506ab1a24ee046eec29ac78eb2a",
             "isMetadataFile": false,
-            "size": 14817,
-            "modifiedTime": 1593860304191,
-            "changeTime": 1593860304191,
-            "contentHash": "846d773390eb03948cf59ba23c7f686d48f11361"
+            "state": "u"
         }
     ],
     [
@@ -3942,16 +3942,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Assessment__c/AG_Assessment__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Assessment__c/AG_Assessment__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5708,
-            "modifiedTime": 1593770052499,
-            "changeTime": 1593770052499,
-            "contentHash": "771a8acf826b37f10b3204b8b82800037bc5bcc4",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 5706,
+            "modifiedTime": 1593861446897,
+            "changeTime": 1593861446897,
+            "contentHash": "8a512e630ddb6d49f1c8a089dcfe63499b473fdf"
         }
     ],
     [
@@ -4211,15 +4209,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Intake__c/AG_Intake__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Intake__c/AG_Intake__c.object-meta.xml",
             "isDirectory": false,
-            "size": 6125,
-            "modifiedTime": 1593792773519,
-            "changeTime": 1593792773519,
-            "contentHash": "d1fdbec3251270aaba8f4b61251e996b05973d41",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false
+            "size": 6126,
+            "modifiedTime": 1593861446952,
+            "changeTime": 1593861446952,
+            "contentHash": "ab009395cc93eb47247162b0724b397a31b16802"
         }
     ],
     [
@@ -4551,16 +4548,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Questionnaire_Template__c/AG_Questionnaire_Template__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Questionnaire_Template__c/AG_Questionnaire_Template__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5290,
-            "modifiedTime": 1593789143797,
-            "changeTime": 1593789143797,
-            "contentHash": "632a620ada65d1a5809971e5a06a20c39c54afdf",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 5288,
+            "modifiedTime": 1593861446764,
+            "changeTime": 1593861446764,
+            "contentHash": "e987c1ef37d2d81da78fab52d95745d0cb52316e"
         }
     ],
     [
@@ -4770,14 +4765,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Service_Request__c/AG_Service_Request__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Service_Request__c/AG_Service_Request__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5870,
-            "modifiedTime": 1593839588575,
-            "changeTime": 1593839588575,
-            "contentHash": "8a5fdef658f4431186e4ecea91c83a6b8b140ae2",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 5870,
+            "modifiedTime": 1593861446804,
+            "changeTime": 1593861446804,
+            "contentHash": "398c0741313976737e77239d5c739d75ee52e4a5"
         }
     ],
     [
@@ -4912,16 +4907,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Service__c/AG_Service__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Service__c/AG_Service__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5262,
-            "modifiedTime": 1593422387218,
-            "changeTime": 1593422387218,
-            "contentHash": "9a03971f132e92e2228bb8f63c9f3547c870ad54",
             "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 5260,
+            "modifiedTime": 1593861446841,
+            "changeTime": 1593861446841,
+            "contentHash": "74731569daf97538403853f2e83c6a490a0d8358"
         }
     ],
     [
@@ -6918,14 +6911,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/permissionsets/AG_DHS_Permission_Set.permissionset-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/permissionsets/AG_DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
-            "size": 17563,
-            "modifiedTime": 1593853533924,
-            "changeTime": 1593853533924,
-            "contentHash": "ad59f0a0230abe9d6de8200f6477447722d0a73a",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 20494,
+            "modifiedTime": 1593861447144,
+            "changeTime": 1593861447144,
+            "contentHash": "2b048f4c343c0be3ff53269f265cf01f97c9fcba"
         }
     ],
     [
@@ -7742,14 +7735,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Log__c/AG_Log__c.object-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/human-service/human_service_P1/force-app/main/default/objects/AG_Log__c/AG_Log__c.object-meta.xml",
             "isDirectory": false,
-            "size": 5647,
-            "modifiedTime": 1593844891777,
-            "changeTime": 1593844891777,
-            "contentHash": "8191f115120569deda7314a59091d4b3a43e3bda",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 5647,
+            "modifiedTime": 1593861446982,
+            "changeTime": 1593861446982,
+            "contentHash": "a6f1bdbd9be039b34ff0eeab2f527858afdfb9e9"
         }
     ],
     [

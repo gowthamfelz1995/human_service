@@ -162,7 +162,7 @@
     <label>Assessment</label>
     <nameField>
         <displayFormat>AS-{0000000000}</displayFormat>
-        <label>Assessment Name</label>
+        <label>Assessment ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

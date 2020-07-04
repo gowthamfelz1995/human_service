@@ -162,7 +162,7 @@
     <label>Service Request</label>
     <nameField>
         <displayFormat>SR-{000000}</displayFormat>
-        <label>Service Request Id</label>
+        <label>Service Request ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>

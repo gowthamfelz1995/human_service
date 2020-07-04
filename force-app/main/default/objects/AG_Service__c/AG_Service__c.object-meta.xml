@@ -156,7 +156,7 @@
     <label>Service</label>
     <nameField>
         <displayFormat>S-{0000000000}</displayFormat>
-        <label>Service Name</label>
+        <label>Service ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
