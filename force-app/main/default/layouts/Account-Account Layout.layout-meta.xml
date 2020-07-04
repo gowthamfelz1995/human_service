@@ -240,6 +240,7 @@
     <relatedLists>
         <excludeButtons>MassChangeOwner</excludeButtons>
         <excludeButtons>New</excludeButtons>
+        <fields>NAME</fields>
         <fields>AG_Intake_Coordinator__c</fields>
         <fields>AG_Service_Provider__c</fields>
         <fields>AG_Demographic_Information__c</fields>
@@ -253,7 +254,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hN0000001f6iY</masterLabel>
+        <masterLabel>00h1y000000bleC</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
