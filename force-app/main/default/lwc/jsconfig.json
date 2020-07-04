@@ -41,6 +41,9 @@
             ],
             "c/objListItem": [
                 "objListItem/objListItem.js"
+            ],
+            "c/assessmentTemplateList": [
+                "assessmentTemplateList/assessmentTemplateList.js"
             ]
         }
     },

@@ -26,7 +26,7 @@ import SERVICE_REQUEST from '@salesforce/schema/AG_Service_Request__c';
 export default class AssessmentTemplate extends NavigationMixin(LightningElement) {
   assessmentId = "";
   serviceRequestId = "";
-  showSaveBtn = false;
+  showSaveBtn = true;
   @track questionList = [];
   serviceRequestObj = SERVICE_REQUEST;
 
@@ -59,7 +59,7 @@ export default class AssessmentTemplate extends NavigationMixin(LightningElement
       .then((result) => {
         var res = JSON.parse(result);
         const quesList = res.data;
-        this.showSaveBtn = true;
+        this.showSaveBtn = false;
         console.log("resnew==>" + JSON.stringify(res))
         quesList.forEach((questionObj) => {
           var pickValuesToAdd = []
