@@ -1,3 +1,81 @@
 <template>
+    <lightning-card title="Service Log" icon-name="action:log_event">
+        <template  for:each={questionList} for:item="question" for:index="index">
+            <div class="slds-p-around_large" key={question}>
+            <span key={question.questions.Id} class="slds-text-heading_small">{question.questions.Name}</span>
+            <template if:true={question.isPickList}>
+                <lightning-layout vertical-align="center" multiple-rows="true">
+                    <lightning-layout-item padding="around-small" size="10">
+                <lightning-combobox key={question.pickListValues} data-name={index} name={index} label=""
+                    placeholder="Choose one.." options={question.pickListValues} onchange={handleChange}>
+                </lightning-combobox>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="2">
+                
+                </lightning-layout-item>
+                </lightning-layout>
+            </template>
+            <template if:true={question.isText}>
+                <lightning-layout vertical-align="center" multiple-rows="true">
+                <lightning-layout-item padding="around-small" size="10">
+                <lightning-input type="text" label={question.questions.Name} data-name={index} value={textValue} onchange={handleChange}></lightning-input> 
+               </lightning-layout-item>
+               <lightning-layout-item padding="around-small" size="2">
+              
+                   </lightning-layout-item>
+               </lightning-layout>
+                
+                
+            </template>
+            <template if:true={question.isTextArea}>
+                <lightning-layout vertical-align="center" multiple-rows="true">
+                    <lightning-layout-item padding="around-small" size="10">
+                <lightning-textarea name="input3" label="Information" data-name={index} placeholder="type here..." onchange={handleChange}></lightning-textarea>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="2">
+                
+                       </lightning-layout-item>
+                </lightning-layout>
+             </template>
+             <template if:true={question.isPhone}>
+                <lightning-layout vertical-align="center" multiple-rows="true">
+                    <lightning-layout-item padding="around-small" size="10">
+             <lightning-input type="tel" label="Phone Number" name="phone2" data-name={index} placeholder="phone" onchange={handleChange}></lightning-input>
+             </lightning-layout-item>
+             <lightning-layout-item padding="around-small" size="2">
+              
+                   </lightning-layout-item>
+             </lightning-layout>
+            </template>
+            <template if:true={question.isNumber}>
+                <lightning-layout vertical-align="center" multiple-rows="true">
+                    <lightning-layout-item padding="around-small" size="10">
+            <lightning-input type="number" name="input1" label="Enter a number" data-name={index} onchange={handleChange}></lightning-input>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small" size="2">
+          
+                   </lightning-layout-item>
+            </lightning-layout>
+            </template>
+        </div>
+        </template>
+       
+            <div class="slds-align_absolute-center">
+                <span class="slds-p-around_xx-small">
+            <lightning-button
+            label="Back"
+            variant="neutral"
+            onclick={handleback}
+        ></lightning-button>
+          </span>
+          <span class="slds-p-around_xx-small">
+            <lightning-button
+                label="Save"
+                onclick={saveLogs}
+                variant="brand"
+            ></lightning-button>
+        </span>
+    </div>
     
+    </lightning-card>
 </template>

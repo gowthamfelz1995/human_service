@@ -11,12 +11,16 @@ import {
     ShowToastEvent
 } from 'lightning/platformShowToastEvent';
 
+
 import dischargeClient from '@salesforce/apex/AG_Human_Service_CL.dischargeClient';
+
+import SERVICE_REQUEST from '@salesforce/schema/AG_Service_Request__c';
 
 export default class Discharge extends NavigationMixin(LightningElement) {
     @api recordId;
 
     @api status = "Discharged";
+    serviceRequestObj = SERVICE_REQUEST;
 
     connectedCallback() {
         dischargeClient({
@@ -31,12 +35,14 @@ export default class Discharge extends NavigationMixin(LightningElement) {
                     variant: "success"
                 });
                 this.dispatchEvent(successEvent);
+               
             })
             .catch((error) => {
                 this.message = response.message;
                 this.error = error;
             });
         this.handleCancel();
+       
     }
 
     handleCancel() {
@@ -44,7 +50,7 @@ export default class Discharge extends NavigationMixin(LightningElement) {
             type: 'standard__recordPage',
             attributes: {
                 recordId: this.recordId,
-                objectApiName: 'Lead',
+                objectApiName: this.serviceRequestObj,
                 actionName: 'view'
             }
         });

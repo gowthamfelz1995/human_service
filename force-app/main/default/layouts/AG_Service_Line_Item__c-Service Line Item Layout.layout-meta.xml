@@ -104,9 +104,8 @@
         <excludeButtons>MassChangeOwner</excludeButtons>
         <excludeButtons>New</excludeButtons>
         <fields>NAME</fields>
-        <fields>AG_Service_Question__c</fields>
-        <fields>AG_Answer__c</fields>
         <fields>CREATEDBY_USER</fields>
+        <fields>CREATED_DATE</fields>
         <relatedList>AG_Log__c.AG_Service_Line_Item__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>

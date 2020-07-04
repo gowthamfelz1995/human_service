@@ -240,6 +240,20 @@ public with sharing class AG_Human_Service_CL {
         update serviceRequest;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
     }
+    @AuraEnabled
+    public static string saveServiceLogList(String logObjList){
+        logWrapper logWrapperList = (logWrapper) JSON.deserialize(logObjList,logWrapper.class);
+        AG_Log__c  newLog = new AG_Log__c(AG_Service_Line_Item__c=logWrapperList.serviceLineItemtId);
+        insert newLog;
+        List<AG_Log_Values__c> logValueList = new List<AG_Log_Values__c>();
+        for(logAnswerWrapper logAnwser : logWrapperList.serviceAnswerList){
+            AG_Log_Values__c  newLogValues = new AG_Log_Values__c(Name = logAnwser.question,AG_Answer__c = logAnwser.answer,AG_Log__c=newLog.id);
+            logValueList.add(newLogValues);
+        }
+        insert logValueList;
+        return '{"success": true, "data" : '+JSON.serialize(logValueList)+'}';
+    }
+    
 
     public class assessmentWrapper{
         public String serviceRequestId {get;set;}
@@ -251,6 +265,15 @@ public with sharing class AG_Human_Service_CL {
         public String question {get;set;}
         public String answer {get;set;}
         public Integer score {get;set;}
+    }
+    public class logWrapper{
+        public String serviceLineItemtId {get;set;}
+        public List<logAnswerWrapper> serviceAnswerList {get;set;}
+    }
+
+    public class logAnswerWrapper{
+        public String question {get;set;}
+        public String answer {get;set;}
     }
 
     public class ServiceWrapper{

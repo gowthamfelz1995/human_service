@@ -27,7 +27,8 @@
                 });
                 navEvt.fire();
                 var dismissActionPanel = $A.get("e.force:closeQuickAction");
-        		 dismissActionPanel.fire();
+                 dismissActionPanel.fire();
+                 $A.get('e.force:refreshView').fire();
             }
         });
         $A.enqueueAction(action);

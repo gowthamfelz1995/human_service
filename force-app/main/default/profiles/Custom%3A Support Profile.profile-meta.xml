@@ -202,6 +202,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Log_Values__c.AG_Answer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AG_Log_Values__c.AG_Log__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>AG_Log__c.AG_Answer__c</field>
         <readable>false</readable>
@@ -359,6 +369,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Intake__c-Intake Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AG_Log_Values__c-Log Value Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Log__c-Log Layout</layout>
