@@ -2,7 +2,7 @@ declare module "@salesforce/apex/AG_Human_Service_CL.findServiceRequest" {
   export default function findServiceRequest(param: {recordId: any}): Promise<any>;
 }
 declare module "@salesforce/apex/AG_Human_Service_CL.waitListLead" {
-  export default function waitListLead(param: {recordId: any, comment: any}): Promise<any>;
+  export default function waitListLead(param: {recordId: any, waitUntil: any, comment: any}): Promise<any>;
 }
 declare module "@salesforce/apex/AG_Human_Service_CL.dischargeClient" {
   export default function dischargeClient(param: {recordId: any, status: any}): Promise<any>;
