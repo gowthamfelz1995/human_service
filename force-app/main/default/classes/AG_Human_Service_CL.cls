@@ -256,7 +256,6 @@ public with sharing class AG_Human_Service_CL {
     @AuraEnabled
     public static string saveAssessmentList(String assessmentObj){
         assessmentWrapper wrapperList = (assessmentWrapper) JSON.deserialize(assessmentObj,assessmentWrapper.class);
-        System.debug('assessmentTempList==>'+wrapperList);
         AG_Assessment__c newAssessment = new AG_Assessment__c(AG_Service_Request__c =wrapperList.serviceRequestId,AG_Template__c=wrapperList.assessmentTemplateId, AG_Assessment_Date__c=date.today());
         insert newAssessment;
 
@@ -281,6 +280,7 @@ public with sharing class AG_Human_Service_CL {
         update serviceRequest;
         return '{"success": true, "data" : '+JSON.serialize(newAssessment)+'}';
     }
+
     @AuraEnabled
     public static string saveServiceLogList(String logObjList){
         logWrapper logWrapperList = (logWrapper) JSON.deserialize(logObjList,logWrapper.class);
@@ -294,7 +294,6 @@ public with sharing class AG_Human_Service_CL {
         insert logValueList;
         return '{"success": true, "data" : '+JSON.serialize(logValueList)+'}';
     }
-    
 
     public class assessmentWrapper{
         public String serviceRequestId {get;set;}
